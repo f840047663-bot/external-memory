@@ -238,3 +238,86 @@ cronjob 每14天(14:00)
 | 45%<P<55% | ⏸️ 中性，方向未定 |
 
 **铁律：脚本只出报告、不改P值。背离信号由Hermes手动跟进。**
+
+---
+
+## 流程F：信源可信度评分（双向动态，耦合进3个入口）
+
+### 入口①：日常处理博主内容时（流程A — Step 3.1之后）
+
+**每次我处理完一个博主视频/文章，如果其中有明确预判，立即录制：**
+
+```bash
+python3 ~/.hermes/scripts/source_credibility.py --record <信源> <看多/看空> <资产代码> <P前> <P后> "说明"
+```
+
+**提前判断规则：**
+- 有明确涨跌/趋势预判 → 录
+- 有因果逻辑链+方向预判 → 录
+- 纯解释/新闻复述 → 不录
+- 框架级观点（无时间窗口） → 不录，标注"长期"即可
+
+### 入口②：每日风险信号汇总（流程D）
+
+**报告末尾追加信源可信度快照：**
+```
+📊 信源可信度概览
+  ✅ 高采信（4-5★）: 宋鸿兵、岩松笔记、付鹏
+  ⚠️ 方向预警（2★）: 蒋宇飞
+  🚫 暂停（0★）: （无）
+```
+
+### 入口③：决策回看·每两周（流程E，第二部分）
+
+**在P-Price验证之后，执行信源验证：**
+
+```bash
+cronjob 每14天(14:00)
+    ↓
+Step 1: p_price_verify.py (已有的)
+    ↓
+Step 2: source_credibility.py --pending
+    → 列出所有待验证的预测
+    → 人工/自动查实际走势
+    → 逐条跑 --verify
+    ↓
+Step 3: source_credibility.py --report
+    → 输出信源可信度报告
+    → 标记需要关注的源（⚠️方向预警 / 🚫暂停）
+    ↓
+Step 4: 整合成综合报告推给大好人
+```
+
+### 前置校验规则补充（流程A — Step 1）
+
+**当你处理博主视频/文章时，判断是否录制为预测：**
+
+| 内容类型 | 是否录预测 | 示例 |
+|:---------|:---------:|:-----|
+| 明确涨跌/趋势预判 ✅ | 是 | "我判断黄金会涨""芯片还要跌" |
+| 因果逻辑链+方向预判 ✅ | 是 | "利率上行→科技估值承压→看空芯片" |
+| 纯解释/新闻复述 ❌ | 否 | "今天A股跌了因为...""这个政策内容是..." |
+| 框架级观点（无时间窗口） ⚠️ | 可选，标注"长期" | "芯片产业链长期看多" |
+
+**铁律：有方向+有验证窗口的才录预测。纯分析不录。**
+
+### 命令速查
+
+```bash
+# 录制预测（日常处理博主时）
+python3 ~/.hermes/scripts/source_credibility.py --record <信源> <看多/看空> <资产代码> <P前> <P后> "说明"
+
+# 验证预测（回头看时）
+python3 ~/.hermes/scripts/source_credibility.py --verify <信源> <索引> <涨/跌/平> [涨跌幅] [偏差说明]
+
+# 查看报告
+python3 ~/.hermes/scripts/source_credibility.py --report
+python3 ~/.hermes/scripts/source_credibility.py --report <信源>   # 单人详细
+python3 ~/.hermes/scripts/source_credibility.py --pending         # 待验证列表
+python3 ~/.hermes/scripts/source_credibility.py --history <信源>  # 评分变化历史
+```
+
+### 数据位置
+- 评分数据：`~/.hermes/output/source_credibility.json`
+- 主控制表：`thinkers/INDEX.md`（星级规则+系数表）
+- 单人档案：`thinkers/thinker-{name}.md`（可信度评分区）
