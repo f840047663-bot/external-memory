@@ -34,6 +34,4 @@
 §
 【存折资金铁律】存折里的钱绝对不能动。用户提加仓念头时我必须立即提醒：当前大V集体喊投资=泡沫前兆。只有黄金坑/安全边际极明显/机会绝对显而易见时，才可斟酌考虑动存折。怕踏空的念头要压住。
 §
-用户被问大Rune,  responseBing, needed to clarify buy vs sell.  Always confirm intent before executing trades/unusual actions.
-
-【信源可信度架构已最终确立】不要任何数据库/脚本/CLI/cron。数据存在 predictions/ 文件夹（每个信源一个md文件，只记预测验证表：日期/领域/方向/资产/预测内容/调P/验证/证据）。thinker 文件只留可信度评分总结，数据来源指向 predictions/。用户可打开 predictions/{信源}.md 验证每条的"证据"列。per-asset评分：无数据的资产=3★初始。三档错误：方向反了(致命)/漏了显性事件(严重)/算错了(可容忍)。【替换规则】这个架构已完全取代之前任何 source_credibility.py 相关描述。
+用户分享巴菲特的四重估值框架（已在investment-deep-dive skill references/valuation-methodology-buffett.md）：丛林三问（有没有鸟/何时飞/多少只+无风险利率=美债收益率）、所有者盈余（报告利润+折旧摊销-维持性资本开支）、模糊的正确比精准的错误重要、农场逻辑（找懂行的人问产量成本算标准化收益）。审核资产前先读这个参考。
