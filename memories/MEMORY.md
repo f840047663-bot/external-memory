@@ -14,7 +14,7 @@
 §
 【强纪律】用户说"无更新"必须立即验证最新内容标题+日期+来源，否则等于没查。API不通=立刻走浏览器，不能说"cookie过期了所以没查到"。发现了漏的内容=当天处理，不准推到明天。
 §
-【烧钱敏感+断点+浏览器 2026-05-27】①用户极度在意API费用。②断点表"最后视频ID"存aweme_id（视频ID），非sec_uid。调API用搜到的sec_uid（MS4wLjAB格式）。③browser工具必须自启动Playwright，不依赖CDP Chrome。清cdp_url配置。④老GPU+Chrome 147崩→加--use-angle=swiftshader-11。
+【2026-05-27 三大修复】①断点表「最后视频ID」=aweme_id(视频ID)，非sec_uid。搜索/调API用正确MS4w格式sec_uid(thinkers/INDEX.md第三列)。②Chrome GPU崩: Ivy Bridge加--use-angle=swiftshader-11。③browser工具不设cdp_url，自启动Playwright。桌面脚本已更新。
 §
 【⚠️ L1.5货架·不可清理铁律】L1.5与L1平级同层，外挂L2（2200字上限+token成本）。触发词→搜L2→L3回退。当前7条：待重仓监控/贝叶斯管道/调仓原则/卖出三层/原油HALO/监控断点/工作流表。L3回退路径见INDEX.md §0路径表。不可清理。
 §
