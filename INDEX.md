@@ -201,9 +201,13 @@ events/{日期}.md   00-宏观传导框架.md
 ### ⚠️ 通用前提条件
 
 **CDP Chrome必须已运行**（端口9222）：
-- Cron每天23:03自动启动：`google-chrome --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-debug`
-- 如果挂了 → 手动启动：`bash ~/桌面/一键监控.sh`（该脚本自动启动CDP Chrome）
-- 如果CDP Chrome被OOM杀了 → 先跑`内存急救.sh`释放内存
+- **systemd用户服务**（2026-05-29稳定方案）：`systemctl --user status chrome-cdp`
+  - 开机自启 + 崩溃自动重启（`Restart=on-failure`）
+  - 服务文件：`~/.config/systemd/user/chrome-cdp.service`
+  - 独立配置目录：`/tmp/chrome-debug`（Chrome要求非默认目录才能开CDP）
+- 如果挂了 → `systemctl --user restart chrome-cdp`
+- 如果OOM杀了 → 先跑`内存急救.sh` → 服务会自动重启
+- **故障排查** → 见 skill:local-chrome-cdp-bridge §「Chrome崩溃修复日志」
 
 **每个平台都需要用户登录一次**（登录态cookie存桌面）：
 - 凭证路径：`~/桌面/凭证/{平台}_cookie_最新.txt`
