@@ -217,13 +217,12 @@ events/{日期}.md   00-宏观传导框架.md
 ### ⚠️ 通用前提条件
 
 **CDP Chrome必须已运行**（端口9222）：
-- **systemd用户服务**（2026-05-29稳定方案）：`systemctl --user status chrome-cdp`
-  - 开机自启 + 崩溃自动重启（`Restart=on-failure`）
-  - 服务文件：`~/.config/systemd/user/chrome-cdp.service`
+- **启动方式：** `systemd-run --user --pty`（见`00-网站内容抓取总纲.md`第三节）
+  - **不要尝试** `systemctl --user start chrome-cdp`（这台Wayland机器上service文件不可用）
   - 独立配置目录：`/tmp/chrome-debug`（Chrome要求非默认目录才能开CDP）
-- 如果挂了 → `systemctl --user restart chrome-cdp`
-- 如果OOM杀了 → 先跑`内存急救.sh` → 服务会自动重启
-- **故障排查** → 见 skill:local-chrome-cdp-bridge §「Chrome崩溃修复日志」
+- 如果挂了 → 先`pkill -9 -f chrome`，再跑`systemd-run`启动命令
+- 如果OOM杀了 → 先跑`内存急救.sh` → 再跑`systemd-run`启动命令
+- **故障排查** → 见`00-网站内容抓取总纲.md`第三节 + skill:local-chrome-cdp-bridge
 
 **每个平台都需要用户登录一次**（登录态cookie存桌面）：
 - 凭证路径：`~/桌面/凭证/{平台}_cookie_最新.txt`
