@@ -217,12 +217,11 @@ events/{日期}.md   00-宏观传导框架.md
 ### ⚠️ 通用前提条件
 
 **CDP Chrome必须已运行**（端口9222）：
-- **启动方式：** `systemd-run --user --pty`（见`00-网站内容抓取总纲.md`第三节）
-  - **不要尝试** `systemctl --user start chrome-cdp`（这台Wayland机器上service文件不可用）
-  - 独立配置目录：`/tmp/chrome-debug`（Chrome要求非默认目录才能开CDP）
-- 如果挂了 → 先`pkill -9 -f chrome`，再跑`systemd-run`启动命令
-- 如果OOM杀了 → 先跑`内存急救.sh` → 再跑`systemd-run`启动命令
-- **故障排查** → 见`00-网站内容抓取总纲.md`第三节 + skill:local-chrome-cdp-bridge
+- **完整操作手册 → `Chrome-CDP-操作手册.md`**（启动/调试/cookie提取/故障排查）
+- 快速启动：`systemctl --user enable --now chrome-cdp.service`
+- **⚠️ Chrome每次重启后必须运行：** `bash ~/系统工具/更新Chrome-CDP-ID.sh`（否则Hermes browser工具报404）
+- 如果OOM杀了 → 先跑`内存急救.sh` → 再启动Chrome
+- **故障排查** → 见`Chrome-CDP-操作手册.md` + skill:local-chrome-cdp-bridge
 
 **每个平台都需要用户登录一次**（登录态cookie存桌面）：
 - 凭证路径：`~/桌面/凭证/{平台}_cookie_最新.txt`
@@ -331,13 +330,24 @@ bash ~/桌面/脚本/启动Chrome调试模式.sh   # 或 bash ~/桌面/一键监
 | 知乎API 403/空 | cookie过期→同上 |
 | 三个全挂 | Chrome调试模式没开→一键监控.sh |
 
-### cookie统一路径（绝对不动）
+### cookie统一路径
 
+**Hermes脚本读取：**
+```
+~/.hermes/cookies/bilibili_netscape.txt    # B站Netscape格式
+~/.hermes/cookies/douyin_netscape.txt      # 抖音Netscape格式
+~/.hermes/cookies/zhihu_netscape.txt       # 知乎Netscape格式
+```
+
+**桌面凭证（旧脚本兼容）：**
 ```
 ~/桌面/凭证/bilibili_com_cookie_最新.txt
 ~/桌面/凭证/douyin_com_cookie_最新.txt
 ~/桌面/凭证/zhihu_com_cookie_最新.txt
 ```
+
+**有效性判断：** Netscape文件 >1000字节 = 有效；<500字节 = 过期需刷新。
+**刷新流程：** 见 `Chrome-CDP-操作手册.md` 第四节。
 
 ---
 <!-- ============================================================ -->
