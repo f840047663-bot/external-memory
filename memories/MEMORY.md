@@ -31,4 +31,5 @@
 【L1.5铁律】长任务→写L1.5_工作记忆.md→每步更新→完事清空。断点以Excel看板为准。
 【管道架构】pipeline_state.py(视频独立状态机)+pipeline_processor.py(完整管道)。断点铁律：完整管道跑完才前进。douyin_monitor_v3.py已对接pipeline_states。yt-dlp抖音需Netscape格式cookie(/tmp/douyin_netscape_cookies.txt)。
 §
-待办：监控管道跑通后，讨论耦合两个项目——1)Polymarket预测概率进贝叶斯系统(强信号源) 2)vrattai-hedge-fund GitHub项目(13位投资大师风格AI投研框架)。
+【转录日志铁律】VideoCaptioner转录每条，立即在运行日志append一行。不能攒。中断恢复靠日志。
+待办：Polymarket+vrattai-hedge-fund整合。
