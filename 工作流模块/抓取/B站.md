@@ -5,12 +5,12 @@
 
 ## API请求
 ```bash
-COOKIE=$(cat /tmp/bilibili_cookies.txt)
+COOKIE=$(cat ~/桌面/凭证/bilibili_com_cookie_最新.txt)
 curl -s -b "$COOKIE" \
   -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
-  "https://api.bilibili.com/x/space/wbi/arc/search?mid={mid}&ps=30"
+  "https://api.bilibili.com/x/space/arc/search?mid={mid}&ps=30"
 ```
-mid从`thinkers/INDEX.md`第四列读（格式`mid:数字`或`space.bilibili.com/数字`）。
+mid从`thinkers/INDEX.md`第四列读（格式`mid:数字`）。
 
 ## ID锚点比对
 ```
