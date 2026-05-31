@@ -3,7 +3,7 @@
 > **输入：** mid, 断点BVID, 断点时间
 > **输出：** 新视频列表 → 保存到~/.hermes/work/videos/ → 写/tmp/monitor_status.md一行
 
-## API请求
+## API请求（副路：curl）
 ```bash
 COOKIE=$(cat ~/桌面/凭证/bilibili_com_cookie_最新.txt)
 curl -s -b "$COOKIE" \
@@ -11,6 +11,20 @@ curl -s -b "$COOKIE" \
   "https://api.bilibili.com/x/space/arc/search?mid={mid}&ps=30"
 ```
 mid从`thinkers/INDEX.md`第四列读（格式`mid:数字`）。
+
+## 主路：Evil0ctal（douyin-tiktok-scraper）
+```python
+import asyncio
+from douyin_tiktok_scraper.scraper import Scraper
+
+async def fetch():
+    s = Scraper()
+    result = await s.get_bilibili_video_data('https://www.bilibili.com/video/{BVID}')
+    return result
+
+asyncio.run(fetch())
+```
+**切换逻辑**：主路超时(>10s)→切副路(curl)。副路-799→按下方失败处理。
 
 ## ID锚点比对
 ```
