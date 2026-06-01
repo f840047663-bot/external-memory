@@ -1,1 +1,1 @@
-【L1已清空·2026-06-01】完整备份→~/.hermes/external_memory/L1-完整记忆备份.md（含MEMORY+USER双区）。恢复=逐条memory(action='add',target='memory'|'user')写回。L2=hindsight_recall("关键词"),端口9177。L1.5=hindsight_recall("L1.5:关键词")。跑流程必读INDEX.md+抓取总纲.md+监控全流程.md。
+【L1已清空·2026-06-01】完整备份→~/.hermes/external_memory/L1-完整记忆备份.md。恢复=逐条memory(action='add')写回。L2=hindsight_recall("关键词"),端口9177。L1.5=hindsight_recall("L1.5:关键词")。【跑监控流程】主框架=~/.hermes/external_memory/监控统筹框架.md→按模块路由表顺序走子模块(工作流模块/抓取/阶段一.md等)→状态文件=/tmp/monitor_state.json。不准跳步不准私自改。
