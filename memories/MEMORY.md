@@ -31,5 +31,4 @@
 【L1.5铁律】长任务→写L1.5_工作记忆.md→每步更新→完事清空。断点以Excel看板为准。
 【管道架构】pipeline_state.py(视频独立状态机)+pipeline_processor.py(完整管道)。断点铁律：完整管道跑完才前进。douyin_monitor_v3.py已对接pipeline_states。yt-dlp抖音需Netscape格式cookie(/tmp/douyin_netscape_cookies.txt)。
 §
-【转录日志铁律】VideoCaptioner转录每条，立即在运行日志append一行。不能攒。中断恢复靠日志。
-待办：Polymarket+vrattai-hedge-fund整合。
+【运行日志铁律】任何长任务每步必须在~/桌面/监控运行日志.md append一行。格式：|时间|平台|博主|内容|状态|备注。不记=没干。中断恢复先读日志。
