@@ -28,3 +28,4 @@
 **P值联动：** 5★→+4pp | 4★→+3pp | 3★→+2pp | 2★→+1pp | 1★→微量 | 🚫→不采信
 
 > 评分由 `~/.hermes/scripts/source_credibility.py` 自动管理。评分历史：`--history naxing-ai`
+## 2026-06-01
