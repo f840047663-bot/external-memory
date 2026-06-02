@@ -6,6 +6,6 @@
 §
 Cookie提取2026-06-02验证结论：yt-dlp impersonate方案无效（发新请求到TikTok返回登录页无cookie）。CDP Storage.getCookies是唯一可行方案。yt-dlp仅用于B站视频下载（配合Netscape cookie），不用于cookie提取。环境准备.md的--format netscape参数已修正为--netscape。monitoring-pipeline skill引用已修复。但cookie-extractor skill有重复的"三层次存储系统"章节需要清理（patch SKILL.md失败，需要edit而非patch）。
 §
-监控统筹框架.md v2备份：~/.hermes/external_memory/监控统筹框架_backup_0602_原版.md（474行）。2026-06-02基于V4 Pro建议做大规模修改，回滚=cp备份覆盖原文件。
+监控统筹框架.md（474行原版）已确认保持不动。2026-06-02尝试基于V4 Pro建议拆分模块（目标≤150行调度器+4阶段模块），但结论是拆分反而违背用户"LLM只读1个文件"的核心要求，且原版已跑通。已回滚到原版。备份仍在backup_0602_原版.md。
 §
 监控框架架构决策(2026-06-02)：统筹框架必须≤150行，只做调度器（断点+防漂移+决策树+开关+路由表+自检）。阶段一抓取/阶段二转录/阶段三分析/阶段四收尾各自独立成模块，统筹框架只传返回值不塞细节。原版474行已跑通，备份在监控统筹框架_backup_0602_原版.md，有问题随时回滚。拆分方案必须先跟V4 Pro多轮讨论，一条一条过，不准直接改。
