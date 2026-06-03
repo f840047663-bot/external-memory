@@ -55,3 +55,10 @@ Hermes的CDP代理层有问题，但Chrome CDP端口9222本身是活的。用`cd
 - 不同博主请求间必须sleep(5-8秒)
 - 收到-799必须sleep(15秒)
 - **三平台交替**：不准一口气跑完一个平台
+
+## 🚨 步骤末尾：写L1.5（不写=模块没跑完）
+```python
+ts = datetime.datetime.now().strftime("%H:%M")
+line = f"- {ts} [B站抓取 {N}人✅ 新{M}条]\n"
+open("/home/fw/.hermes/external_memory/L1.5_工作记忆.md", "a").write(line)
+```
