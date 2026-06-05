@@ -22,4 +22,4 @@ P值系统优化三方向（2026-06-05）：①贝叶斯优化（同逻辑簇边
 §
 用户极度反感复杂化简单事情。要求严格按文档一步步来，不准跳步骤。整不明白就找V4 Pro一点点讨论。V4 Pro讨论归档到~/.hermes/external_memory/v4-discussions/目录，格式YYYY-MM-DD-问题类别-简短描述.md。
 §
-用户核心痛点：Hermes总"失忆"忘持仓数据。不要大改架构，只要净值+盈亏+事件链联动融入现有四阶段流程。方案：holdings.json固化持仓→阶段零前置加载→阶段三联动分析。用户需手动给一次成本数据。
+持仓盈亏联动已嵌入监控§4.2.3（必做）。脚本portfolio_pnl_linkage.py，技能portfolio-pnl-linkage，数据holdings_live.json。净值用联接基金代码拉fundgz API，不准用ETF代码。支付宝数据100%准。用完整基金名称，不用简称。
