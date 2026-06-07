@@ -16,10 +16,17 @@ Cron推送不走微信（静默吞消息），全走QQ邮箱SMTP到feng202210062
 §
 用户2026-06-03识别的存储/SSD投资机会：群联潘健成指出Flash供应仍严重不足，AI落地推动下半年至明年SSD大量采购，明年更紧张。用户判断：中期选举年大盘跌一波=买入时机，确定性高、盈亏比好。与现有芯片ETF(020628)是上下游关系。用户考虑加到看板事件链和待重仓监控。
 §
-P值/R值系统（2026-06-06三轮讨论定稿）：①单一贝叶斯后验P值 ②R=P/(1-P)×PE修正，PE修正=0.5/PE_percentile ③价格反馈：涨超1.5σ→+2pp，跌超1.5σ→-3pp ④A3反馈双条件：p<0.05 AND ρ<-0.5→🔴必须分析 ⑤系统全图景是给AI看的全局导航图。系统无sudo，swap满(3.9G)只能memory_cleanup.sh+杀进程。抖音API对curl返回空(200但body为空)，需浏览器CDP上下文。
-§
 用户核心设计原则：断点=归档到Excel表格才算。抓取脚本里断点更新必须删除，断点只在管道全部走完（下载→转录→分析→写看板）后由pipeline显式调用update_state()。抓取脚本scrape_all_platforms.py的断点更新已全部删除（2026-06-03修复）。
 §
 用户极度反感复杂化简单事情。要求严格按文档一步步来，不准跳步骤。整不明白就找V4 Pro一点点讨论。V4 Pro讨论归档到~/.hermes/external_memory/v4-discussions/目录，格式YYYY-MM-DD-问题类别-简短描述.md。
 §
 持仓盈亏联动已嵌入监控§4.2.3（必做）。脚本portfolio_pnl_linkage.py，技能portfolio-pnl-linkage，数据holdings_live.json。净值用联接基金代码拉fundgz API，不准用ETF代码。支付宝数据100%准。用完整基金名称，不用简称。
+§
+2026-06-07技能更新：
+1. long-task-attention-management添加失败17(cron清空L1.5)和失败18(新会话无交接)
+2. monitoring-pipeline添加cron L1.5误清空pitfall
+3. cron job 6f2bdfc62adb已修复不准清空L1.5
+4. 蒋宇飞180视频转录179/180完成
+5. 知乎zhivrtgm API返回4041用户不存在
+6. 抖音号63519776649/73030232544待解析
+7. hindsight服务不稳定(500错误)
