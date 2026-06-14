@@ -1,0 +1,14 @@
+{
+  "platform": "知乎",
+  "blogger": "古都闲云",
+  "fetched_at": "2026-06-15 01:26:43",
+  "total_items": 0,
+  "items": [],
+  "raw_data": {
+    "error": {
+      "message": "资源不存在",
+      "code": 4041,
+      "name": "ResourceNotFoundException"
+    }
+  }
+}

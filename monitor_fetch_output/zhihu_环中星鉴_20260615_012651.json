@@ -1,0 +1,1667 @@
+{
+  "platform": "知乎",
+  "blogger": "环中星鉴",
+  "fetched_at": "2026-06-15 01:26:51",
+  "total_items": 10,
+  "items": [
+    {
+      "id": "2049549937973765654",
+      "title": "伊朗称伊美谅解备忘录不会在明天签署，当前重点是止战，此前巴总理称协议或在24小时内敲定，透露哪些信息？",
+      "date": "2026-06-14",
+      "timestamp": 1781430784,
+      "content_preview": ""
+    },
+    {
+      "id": "2049124544120674114",
+      "title": "SpaceX 上市，马斯克将成为人类史上首位万亿美元富豪，科技胜利还是资本泡沫？市场流动性会被抽干吗？",
+      "date": "2026-06-13",
+      "timestamp": 1781329362,
+      "content_preview": ""
+    },
+    {
+      "id": "2048763762279241277",
+      "title": "欧洲央行加息，三大关键利率同步上调 25Bp，其它主要经济体是否会跟随，其对资本市场走势有何影响？",
+      "date": "2026-06-12",
+      "timestamp": 1781243345,
+      "content_preview": ""
+    },
+    {
+      "id": "2048750128064996931",
+      "title": "如何评价 SpaceX IPO 创纪录融资 750 亿美元，马斯克成首位万亿富翁？",
+      "date": "2026-06-12",
+      "timestamp": 1781240094,
+      "content_preview": ""
+    },
+    {
+      "id": "2048476575830742345",
+      "title": "黄金期货价格较近期高点下跌 20%，四年来首次正式迈入熊市，黄金到底为什么崩了？",
+      "date": "2026-06-11",
+      "timestamp": 1781174874,
+      "content_preview": ""
+    },
+    {
+      "id": "2048045625783096331",
+      "title": "现货黄金失守 4200 美元，创近3个月新低，黄金的逻辑变了吗？",
+      "date": "2026-06-10",
+      "timestamp": 1781072128,
+      "content_preview": ""
+    },
+    {
+      "id": "2047321224443957866",
+      "title": "央行连续19个月增持黄金 ，2026年5月末外储站稳3.4万亿美元上方，透露出哪些信息？",
+      "date": "2026-06-08",
+      "timestamp": 1780899417,
+      "content_preview": ""
+    },
+    {
+      "id": "2046941303422850553",
+      "title": "SpaceX、OpenAI、Anthropic 扎堆天价 IPO，水分有多大？美股牛市是否临近尾声？",
+      "date": "2026-06-07",
+      "timestamp": 1780808837,
+      "content_preview": ""
+    },
+    {
+      "id": "2046639205053371240",
+      "title": "美股三大指数集体收跌，纳指跌超 1100 点，美国非农数据大幅超预期，加息预期升温，哪些信息值得关注？",
+      "date": "2026-06-06",
+      "timestamp": 1780736811,
+      "content_preview": ""
+    },
+    {
+      "id": "2046243418888786489",
+      "title": "美股芯片巨头博通AI 半导体收入增长超 200%，为什么股价却暴跌 15%？背后有哪些因素值得关注？",
+      "date": "2026-06-05",
+      "timestamp": 1780642448,
+      "content_preview": ""
+    }
+  ],
+  "raw_data": {
+    "paging": {
+      "is_end": false,
+      "totals": 507,
+      "previous": "http://www.zhihu.com/api/v4/members/lrc-8/answers?offset=0&limit=10&sort_by=created",
+      "is_start": true,
+      "next": "http://www.zhihu.com/api/v4/members/lrc-8/answers?offset=10&limit=10&sort_by=created"
+    },
+    "data": [
+      {
+        "force_login_when_click_read_more": false,
+        "endorsements": [
+          {
+            "action_url": "https://www.zhihu.com/column/c_1933255949780522927",
+            "elements": [
+              {
+                "image_key": "zhicon_icon_24_column_fill",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 16,
+                "width": 16,
+                "type": "IMAGE"
+              },
+              {
+                "font_size": 13,
+                "max_line": 1,
+                "content": "收录于 · 黄金/白银/铜/石油大宗投资",
+                "is_bold": false,
+                "font_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "type": "TEXT"
+              },
+              {
+                "image_key": "zhicon_icon_16_arrow_right",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 12,
+                "width": 12,
+                "type": "IMAGE"
+              }
+            ],
+            "sub_elements": [],
+            "sub_elements_type": "DESCRIPTION",
+            "background_color": {
+              "alpha": 0.08,
+              "group": "GBL01A"
+            }
+          }
+        ],
+        "created_time": 1781430784,
+        "is_navigator": false,
+        "biz_ext": {
+          "creation_relationship": {}
+        },
+        "id": "2049549937973765654",
+        "vote_next_step": "vote",
+        "reaction": {
+          "statistics": {
+            "like_count": 10,
+            "favorites": 63
+          },
+          "relation": {
+            "faved": false,
+            "liked": false
+          }
+        },
+        "is_collapsed": false,
+        "author": {
+          "avatar_url_template": "https://picx.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e.jpg?source=c8b7c179",
+          "badge_v2": {
+            "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "detail_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [
+                  {
+                    "avatar_path": "",
+                    "name": "知势榜8月",
+                    "url": "",
+                    "priority": 27,
+                    "token": "",
+                    "avatar_url": "",
+                    "type": "content_potential_category",
+                    "id": "27",
+                    "description": ""
+                  }
+                ],
+                "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                "detail_type": "super_activity",
+                "type": "reward",
+                "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+              }
+            ],
+            "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "merged_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [],
+                "night_icon": "",
+                "detail_type": "best",
+                "type": "best",
+                "icon": ""
+              }
+            ],
+            "title": "知势榜影响力榜经济与管理领域答主"
+          },
+          "name": "环中星鉴",
+          "headline": "独立投资人, INTJ, 公号同名",
+          "gender": -1,
+          "user_type": "people",
+          "url_token": "lrc-8",
+          "is_advertiser": false,
+          "avatar_url": "https://picx.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e_l.jpg?source=c8b7c179",
+          "url": "http://www.zhihu.com/api/v4/people/5329e6ee6332a15761661ffcd216e5d6",
+          "type": "people",
+          "badge": [],
+          "id": "5329e6ee6332a15761661ffcd216e5d6",
+          "is_org": false
+        },
+        "url": "http://www.zhihu.com/api/v4/answers/2049549937973765654",
+        "type": "answer",
+        "question": {
+          "question_type": "normal",
+          "created": 1781349583,
+          "url": "http://www.zhihu.com/api/v4/questions/2049209357032764040",
+          "title": "伊朗称伊美谅解备忘录不会在明天签署，当前重点是止战，此前巴总理称协议或在24小时内敲定，透露哪些信息？",
+          "type": "question",
+          "id": "2049209357032764040",
+          "updated_time": 1781356235
+        },
+        "updated_time": 1781438594,
+        "extras": "",
+        "same_video_answers": [],
+        "content_need_truncated": true,
+        "answer_type": "normal",
+        "is_copyable": false,
+        "navigator_vote": false,
+        "thumbnail": "https://picx.zhimg.com/v2-360d90fc1f921f0a858b72eab0991d7e_qhd.jpg?source=c8b7c179"
+      },
+      {
+        "force_login_when_click_read_more": false,
+        "endorsements": [
+          {
+            "action_url": "https://www.zhihu.com/column/c_1941219682427344174",
+            "elements": [
+              {
+                "image_key": "zhicon_icon_24_column_fill",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 16,
+                "width": 16,
+                "type": "IMAGE"
+              },
+              {
+                "font_size": 13,
+                "max_line": 1,
+                "content": "收录于 · 美股投资逻辑",
+                "is_bold": false,
+                "font_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "type": "TEXT"
+              },
+              {
+                "image_key": "zhicon_icon_16_arrow_right",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 12,
+                "width": 12,
+                "type": "IMAGE"
+              }
+            ],
+            "sub_elements": [],
+            "sub_elements_type": "DESCRIPTION",
+            "background_color": {
+              "alpha": 0.08,
+              "group": "GBL01A"
+            }
+          },
+          {
+            "elements": [
+              {
+                "font_size": 13,
+                "max_line": 1,
+                "content": "创作声明：包含投资理财内容",
+                "is_bold": true,
+                "font_color": {
+                  "alpha": 1.0,
+                  "group": "GBL07A"
+                },
+                "type": "TEXT"
+              },
+              {
+                "image_key": "zhicon_icon_16_arrow_down",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL07A"
+                },
+                "height": 12,
+                "width": 12,
+                "type": "IMAGE",
+                "selected_image_key": "zhicon_icon_16_arrow_up"
+              }
+            ],
+            "sub_elements": [
+              {
+                "elements": [
+                  {
+                    "font_size": 13,
+                    "max_line": 1,
+                    "content": "创作声明：包含投资理财内容",
+                    "is_bold": true,
+                    "font_color": {
+                      "alpha": 1.0,
+                      "group": "GBL07A"
+                    },
+                    "type": "TEXT"
+                  }
+                ]
+              },
+              {
+                "elements": [
+                  {
+                    "font_size": 13,
+                    "max_line": 1,
+                    "content": "不构成具体理财指导，请谨慎甄别相关风险",
+                    "is_bold": false,
+                    "font_color": {
+                      "alpha": 1.0,
+                      "group": "GBL07A"
+                    },
+                    "type": "TEXT"
+                  }
+                ]
+              }
+            ],
+            "sub_elements_type": "DESCRIPTION",
+            "background_color": {
+              "alpha": 0.1,
+              "group": "GBL01A"
+            }
+          }
+        ],
+        "created_time": 1781329362,
+        "is_navigator": false,
+        "biz_ext": {
+          "creation_relationship": {}
+        },
+        "id": "2049124544120674114",
+        "vote_next_step": "vote",
+        "reaction": {
+          "statistics": {
+            "like_count": 55,
+            "favorites": 609
+          },
+          "relation": {
+            "faved": false,
+            "liked": false
+          }
+        },
+        "is_collapsed": false,
+        "author": {
+          "avatar_url_template": "https://picx.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e.jpg?source=c8b7c179",
+          "badge_v2": {
+            "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "detail_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [
+                  {
+                    "avatar_path": "",
+                    "name": "知势榜8月",
+                    "url": "",
+                    "priority": 27,
+                    "token": "",
+                    "avatar_url": "",
+                    "type": "content_potential_category",
+                    "id": "27",
+                    "description": ""
+                  }
+                ],
+                "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                "detail_type": "super_activity",
+                "type": "reward",
+                "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+              }
+            ],
+            "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "merged_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [],
+                "night_icon": "",
+                "detail_type": "best",
+                "type": "best",
+                "icon": ""
+              }
+            ],
+            "title": "知势榜影响力榜经济与管理领域答主"
+          },
+          "name": "环中星鉴",
+          "headline": "独立投资人, INTJ, 公号同名",
+          "gender": -1,
+          "user_type": "people",
+          "url_token": "lrc-8",
+          "is_advertiser": false,
+          "avatar_url": "https://picx.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e_l.jpg?source=c8b7c179",
+          "url": "http://www.zhihu.com/api/v4/people/5329e6ee6332a15761661ffcd216e5d6",
+          "type": "people",
+          "badge": [],
+          "id": "5329e6ee6332a15761661ffcd216e5d6",
+          "is_org": false
+        },
+        "url": "http://www.zhihu.com/api/v4/answers/2049124544120674114",
+        "type": "answer",
+        "question": {
+          "question_type": "normal",
+          "created": 1781236123,
+          "url": "http://www.zhihu.com/api/v4/questions/2048733471812720635",
+          "title": "SpaceX 上市，马斯克将成为人类史上首位万亿美元富豪，科技胜利还是资本泡沫？市场流动性会被抽干吗？",
+          "type": "question",
+          "id": "2048733471812720635",
+          "updated_time": 1781252011
+        },
+        "updated_time": 1781329854,
+        "extras": "",
+        "same_video_answers": [],
+        "content_need_truncated": true,
+        "answer_type": "normal",
+        "is_copyable": false,
+        "navigator_vote": false,
+        "thumbnail": "https://picx.zhimg.com/v2-0416744a4c9816cba21889b791ef46e4_qhd.jpg?source=c8b7c179"
+      },
+      {
+        "force_login_when_click_read_more": false,
+        "created_time": 1781243345,
+        "is_navigator": false,
+        "biz_ext": {
+          "creation_relationship": {}
+        },
+        "id": "2048763762279241277",
+        "vote_next_step": "vote",
+        "reaction": {
+          "statistics": {
+            "like_count": 5,
+            "favorites": 35
+          },
+          "relation": {
+            "faved": false,
+            "liked": false
+          }
+        },
+        "is_collapsed": false,
+        "author": {
+          "avatar_url_template": "https://pic1.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e.jpg?source=c8b7c179",
+          "badge_v2": {
+            "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "detail_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [
+                  {
+                    "avatar_path": "",
+                    "name": "知势榜8月",
+                    "url": "",
+                    "priority": 27,
+                    "token": "",
+                    "avatar_url": "",
+                    "type": "content_potential_category",
+                    "id": "27",
+                    "description": ""
+                  }
+                ],
+                "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                "detail_type": "super_activity",
+                "type": "reward",
+                "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+              }
+            ],
+            "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "merged_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [],
+                "night_icon": "",
+                "detail_type": "best",
+                "type": "best",
+                "icon": ""
+              }
+            ],
+            "title": "知势榜影响力榜经济与管理领域答主"
+          },
+          "name": "环中星鉴",
+          "headline": "独立投资人, INTJ, 公号同名",
+          "gender": -1,
+          "user_type": "people",
+          "url_token": "lrc-8",
+          "is_advertiser": false,
+          "avatar_url": "https://pic1.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e_l.jpg?source=c8b7c179",
+          "url": "http://www.zhihu.com/api/v4/people/5329e6ee6332a15761661ffcd216e5d6",
+          "type": "people",
+          "badge": [],
+          "id": "5329e6ee6332a15761661ffcd216e5d6",
+          "is_org": false
+        },
+        "url": "http://www.zhihu.com/api/v4/answers/2048763762279241277",
+        "type": "answer",
+        "question": {
+          "question_type": "normal",
+          "created": 1781227988,
+          "url": "http://www.zhihu.com/api/v4/questions/2048699352194011845",
+          "title": "欧洲央行加息，三大关键利率同步上调 25Bp，其它主要经济体是否会跟随，其对资本市场走势有何影响？",
+          "type": "question",
+          "id": "2048699352194011845",
+          "updated_time": 1781231977
+        },
+        "updated_time": 1781246354,
+        "extras": "",
+        "same_video_answers": [],
+        "content_need_truncated": true,
+        "answer_type": "normal",
+        "is_copyable": false,
+        "navigator_vote": false,
+        "thumbnail": ""
+      },
+      {
+        "force_login_when_click_read_more": false,
+        "endorsements": [
+          {
+            "action_url": "https://www.zhihu.com/column/c_1941219682427344174",
+            "elements": [
+              {
+                "image_key": "zhicon_icon_24_column_fill",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 16,
+                "width": 16,
+                "type": "IMAGE"
+              },
+              {
+                "font_size": 13,
+                "max_line": 1,
+                "content": "收录于 · 美股投资逻辑",
+                "is_bold": false,
+                "font_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "type": "TEXT"
+              },
+              {
+                "image_key": "zhicon_icon_16_arrow_right",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 12,
+                "width": 12,
+                "type": "IMAGE"
+              }
+            ],
+            "sub_elements": [],
+            "sub_elements_type": "DESCRIPTION",
+            "background_color": {
+              "alpha": 0.08,
+              "group": "GBL01A"
+            }
+          }
+        ],
+        "created_time": 1781240094,
+        "is_navigator": false,
+        "biz_ext": {
+          "creation_relationship": {}
+        },
+        "id": "2048750128064996931",
+        "vote_next_step": "vote",
+        "reaction": {
+          "statistics": {
+            "like_count": 11,
+            "favorites": 124
+          },
+          "relation": {
+            "faved": false,
+            "liked": false
+          }
+        },
+        "is_collapsed": false,
+        "author": {
+          "avatar_url_template": "https://picx.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e.jpg?source=c8b7c179",
+          "badge_v2": {
+            "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "detail_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [
+                  {
+                    "avatar_path": "",
+                    "name": "知势榜8月",
+                    "url": "",
+                    "priority": 27,
+                    "token": "",
+                    "avatar_url": "",
+                    "type": "content_potential_category",
+                    "id": "27",
+                    "description": ""
+                  }
+                ],
+                "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                "detail_type": "super_activity",
+                "type": "reward",
+                "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+              }
+            ],
+            "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "merged_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [],
+                "night_icon": "",
+                "detail_type": "best",
+                "type": "best",
+                "icon": ""
+              }
+            ],
+            "title": "知势榜影响力榜经济与管理领域答主"
+          },
+          "name": "环中星鉴",
+          "headline": "独立投资人, INTJ, 公号同名",
+          "gender": -1,
+          "user_type": "people",
+          "url_token": "lrc-8",
+          "is_advertiser": false,
+          "avatar_url": "https://picx.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e_l.jpg?source=c8b7c179",
+          "url": "http://www.zhihu.com/api/v4/people/5329e6ee6332a15761661ffcd216e5d6",
+          "type": "people",
+          "badge": [],
+          "id": "5329e6ee6332a15761661ffcd216e5d6",
+          "is_org": false
+        },
+        "url": "http://www.zhihu.com/api/v4/answers/2048750128064996931",
+        "type": "answer",
+        "question": {
+          "question_type": "normal",
+          "created": 1781221645,
+          "url": "http://www.zhihu.com/api/v4/questions/2048672745810916944",
+          "title": "如何评价 SpaceX IPO 创纪录融资 750 亿美元，马斯克成首位万亿富翁？",
+          "type": "question",
+          "id": "2048672745810916944",
+          "updated_time": 1781221645
+        },
+        "updated_time": 1781240094,
+        "extras": "",
+        "same_video_answers": [],
+        "content_need_truncated": true,
+        "answer_type": "normal",
+        "is_copyable": false,
+        "navigator_vote": false,
+        "thumbnail": "https://pic1.zhimg.com/v2-23413f0b76b2fa57d0f0242d62e1c72f_qhd.jpg?source=c8b7c179"
+      },
+      {
+        "force_login_when_click_read_more": false,
+        "endorsements": [
+          {
+            "action_url": "https://www.zhihu.com/column/c_1933255949780522927",
+            "elements": [
+              {
+                "image_key": "zhicon_icon_24_column_fill",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 16,
+                "width": 16,
+                "type": "IMAGE"
+              },
+              {
+                "font_size": 13,
+                "max_line": 1,
+                "content": "收录于 · 黄金/白银/铜/石油大宗投资",
+                "is_bold": false,
+                "font_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "type": "TEXT"
+              },
+              {
+                "image_key": "zhicon_icon_16_arrow_right",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 12,
+                "width": 12,
+                "type": "IMAGE"
+              }
+            ],
+            "sub_elements": [],
+            "sub_elements_type": "DESCRIPTION",
+            "background_color": {
+              "alpha": 0.08,
+              "group": "GBL01A"
+            }
+          }
+        ],
+        "created_time": 1781174874,
+        "is_navigator": false,
+        "biz_ext": {
+          "creation_relationship": {}
+        },
+        "id": "2048476575830742345",
+        "vote_next_step": "vote",
+        "reaction": {
+          "statistics": {
+            "like_count": 30,
+            "favorites": 390
+          },
+          "relation": {
+            "faved": false,
+            "liked": false
+          }
+        },
+        "is_collapsed": false,
+        "author": {
+          "avatar_url_template": "https://picx.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e.jpg?source=c8b7c179",
+          "badge_v2": {
+            "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "detail_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [
+                  {
+                    "avatar_path": "",
+                    "name": "知势榜8月",
+                    "url": "",
+                    "priority": 27,
+                    "token": "",
+                    "avatar_url": "",
+                    "type": "content_potential_category",
+                    "id": "27",
+                    "description": ""
+                  }
+                ],
+                "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                "detail_type": "super_activity",
+                "type": "reward",
+                "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+              }
+            ],
+            "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "merged_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [],
+                "night_icon": "",
+                "detail_type": "best",
+                "type": "best",
+                "icon": ""
+              }
+            ],
+            "title": "知势榜影响力榜经济与管理领域答主"
+          },
+          "name": "环中星鉴",
+          "headline": "独立投资人, INTJ, 公号同名",
+          "gender": -1,
+          "user_type": "people",
+          "url_token": "lrc-8",
+          "is_advertiser": false,
+          "avatar_url": "https://pic1.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e_l.jpg?source=c8b7c179",
+          "url": "http://www.zhihu.com/api/v4/people/5329e6ee6332a15761661ffcd216e5d6",
+          "type": "people",
+          "badge": [],
+          "id": "5329e6ee6332a15761661ffcd216e5d6",
+          "is_org": false
+        },
+        "url": "http://www.zhihu.com/api/v4/answers/2048476575830742345",
+        "type": "answer",
+        "question": {
+          "question_type": "normal",
+          "created": 1781160146,
+          "url": "http://www.zhihu.com/api/v4/questions/2048414803740160205",
+          "title": "黄金期货价格较近期高点下跌 20%，四年来首次正式迈入熊市，黄金到底为什么崩了？",
+          "type": "question",
+          "id": "2048414803740160205",
+          "updated_time": 1781160146
+        },
+        "updated_time": 1781175232,
+        "extras": "",
+        "same_video_answers": [],
+        "content_need_truncated": true,
+        "answer_type": "normal",
+        "is_copyable": false,
+        "navigator_vote": false,
+        "thumbnail": "https://pica.zhimg.com/v2-2907fcfd159aa91fe8c28fdad0153959_qhd.jpg?source=c8b7c179"
+      },
+      {
+        "force_login_when_click_read_more": false,
+        "endorsements": [
+          {
+            "action_url": "https://www.zhihu.com/column/c_1933255949780522927",
+            "elements": [
+              {
+                "image_key": "zhicon_icon_24_column_fill",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 16,
+                "width": 16,
+                "type": "IMAGE"
+              },
+              {
+                "font_size": 13,
+                "max_line": 1,
+                "content": "收录于 · 黄金/白银/铜/石油大宗投资",
+                "is_bold": false,
+                "font_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "type": "TEXT"
+              },
+              {
+                "image_key": "zhicon_icon_16_arrow_right",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 12,
+                "width": 12,
+                "type": "IMAGE"
+              }
+            ],
+            "sub_elements": [],
+            "sub_elements_type": "DESCRIPTION",
+            "background_color": {
+              "alpha": 0.08,
+              "group": "GBL01A"
+            }
+          }
+        ],
+        "created_time": 1781072128,
+        "is_navigator": false,
+        "biz_ext": {
+          "creation_relationship": {}
+        },
+        "id": "2048045625783096331",
+        "vote_next_step": "vote",
+        "reaction": {
+          "statistics": {
+            "like_count": 24,
+            "favorites": 467
+          },
+          "relation": {
+            "faved": false,
+            "liked": false
+          }
+        },
+        "is_collapsed": false,
+        "author": {
+          "avatar_url_template": "https://picx.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e.jpg?source=c8b7c179",
+          "badge_v2": {
+            "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "detail_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [
+                  {
+                    "avatar_path": "",
+                    "name": "知势榜8月",
+                    "url": "",
+                    "priority": 27,
+                    "token": "",
+                    "avatar_url": "",
+                    "type": "content_potential_category",
+                    "id": "27",
+                    "description": ""
+                  }
+                ],
+                "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                "detail_type": "super_activity",
+                "type": "reward",
+                "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+              }
+            ],
+            "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "merged_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [],
+                "night_icon": "",
+                "detail_type": "best",
+                "type": "best",
+                "icon": ""
+              }
+            ],
+            "title": "知势榜影响力榜经济与管理领域答主"
+          },
+          "name": "环中星鉴",
+          "headline": "独立投资人, INTJ, 公号同名",
+          "gender": -1,
+          "user_type": "people",
+          "url_token": "lrc-8",
+          "is_advertiser": false,
+          "avatar_url": "https://picx.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e_l.jpg?source=c8b7c179",
+          "url": "http://www.zhihu.com/api/v4/people/5329e6ee6332a15761661ffcd216e5d6",
+          "type": "people",
+          "badge": [],
+          "id": "5329e6ee6332a15761661ffcd216e5d6",
+          "is_org": false
+        },
+        "url": "http://www.zhihu.com/api/v4/answers/2048045625783096331",
+        "type": "answer",
+        "question": {
+          "question_type": "normal",
+          "created": 1781055942,
+          "url": "http://www.zhihu.com/api/v4/questions/2047977736623186480",
+          "title": "现货黄金失守 4200 美元，创近3个月新低，黄金的逻辑变了吗？",
+          "type": "question",
+          "id": "2047977736623186480",
+          "updated_time": 1781055942
+        },
+        "updated_time": 1781072935,
+        "extras": "",
+        "same_video_answers": [],
+        "content_need_truncated": true,
+        "answer_type": "normal",
+        "is_copyable": false,
+        "navigator_vote": false,
+        "thumbnail": "https://pic1.zhimg.com/v2-9c6195dbe9a9218469da92499ecdbc2e_qhd.jpg?source=c8b7c179"
+      },
+      {
+        "force_login_when_click_read_more": false,
+        "endorsements": [
+          {
+            "action_url": "https://www.zhihu.com/column/c_1933255949780522927",
+            "elements": [
+              {
+                "image_key": "zhicon_icon_24_column_fill",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 16,
+                "width": 16,
+                "type": "IMAGE"
+              },
+              {
+                "font_size": 13,
+                "max_line": 1,
+                "content": "收录于 · 黄金/白银/铜/石油大宗投资",
+                "is_bold": false,
+                "font_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "type": "TEXT"
+              },
+              {
+                "image_key": "zhicon_icon_16_arrow_right",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 12,
+                "width": 12,
+                "type": "IMAGE"
+              }
+            ],
+            "sub_elements": [],
+            "sub_elements_type": "DESCRIPTION",
+            "background_color": {
+              "alpha": 0.08,
+              "group": "GBL01A"
+            }
+          },
+          {
+            "elements": [
+              {
+                "font_size": 13,
+                "max_line": 1,
+                "content": "创作声明：包含投资理财内容",
+                "is_bold": true,
+                "font_color": {
+                  "alpha": 1.0,
+                  "group": "GBL07A"
+                },
+                "type": "TEXT"
+              },
+              {
+                "image_key": "zhicon_icon_16_arrow_down",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL07A"
+                },
+                "height": 12,
+                "width": 12,
+                "type": "IMAGE",
+                "selected_image_key": "zhicon_icon_16_arrow_up"
+              }
+            ],
+            "sub_elements": [
+              {
+                "elements": [
+                  {
+                    "font_size": 13,
+                    "max_line": 1,
+                    "content": "创作声明：包含投资理财内容",
+                    "is_bold": true,
+                    "font_color": {
+                      "alpha": 1.0,
+                      "group": "GBL07A"
+                    },
+                    "type": "TEXT"
+                  }
+                ]
+              },
+              {
+                "elements": [
+                  {
+                    "font_size": 13,
+                    "max_line": 1,
+                    "content": "不构成具体理财指导，请谨慎甄别相关风险",
+                    "is_bold": false,
+                    "font_color": {
+                      "alpha": 1.0,
+                      "group": "GBL07A"
+                    },
+                    "type": "TEXT"
+                  }
+                ]
+              }
+            ],
+            "sub_elements_type": "DESCRIPTION",
+            "background_color": {
+              "alpha": 0.1,
+              "group": "GBL01A"
+            }
+          }
+        ],
+        "created_time": 1780899417,
+        "is_navigator": false,
+        "biz_ext": {
+          "creation_relationship": {}
+        },
+        "id": "2047321224443957866",
+        "vote_next_step": "vote",
+        "reaction": {
+          "statistics": {
+            "like_count": 9,
+            "favorites": 95
+          },
+          "relation": {
+            "faved": false,
+            "liked": false
+          }
+        },
+        "is_collapsed": false,
+        "author": {
+          "avatar_url_template": "https://picx.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e.jpg?source=c8b7c179",
+          "badge_v2": {
+            "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "detail_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [
+                  {
+                    "avatar_path": "",
+                    "name": "知势榜8月",
+                    "url": "",
+                    "priority": 27,
+                    "token": "",
+                    "avatar_url": "",
+                    "type": "content_potential_category",
+                    "id": "27",
+                    "description": ""
+                  }
+                ],
+                "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                "detail_type": "super_activity",
+                "type": "reward",
+                "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+              }
+            ],
+            "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "merged_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [],
+                "night_icon": "",
+                "detail_type": "best",
+                "type": "best",
+                "icon": ""
+              }
+            ],
+            "title": "知势榜影响力榜经济与管理领域答主"
+          },
+          "name": "环中星鉴",
+          "headline": "独立投资人, INTJ, 公号同名",
+          "gender": -1,
+          "user_type": "people",
+          "url_token": "lrc-8",
+          "is_advertiser": false,
+          "avatar_url": "https://pica.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e_l.jpg?source=c8b7c179",
+          "url": "http://www.zhihu.com/api/v4/people/5329e6ee6332a15761661ffcd216e5d6",
+          "type": "people",
+          "badge": [],
+          "id": "5329e6ee6332a15761661ffcd216e5d6",
+          "is_org": false
+        },
+        "url": "http://www.zhihu.com/api/v4/answers/2047321224443957866",
+        "type": "answer",
+        "question": {
+          "question_type": "normal",
+          "created": 1780878333,
+          "url": "http://www.zhihu.com/api/v4/questions/2047232791809615224",
+          "title": "央行连续19个月增持黄金 ，2026年5月末外储站稳3.4万亿美元上方，透露出哪些信息？",
+          "type": "question",
+          "id": "2047232791809615224",
+          "updated_time": 1780878333
+        },
+        "updated_time": 1780900658,
+        "extras": "",
+        "same_video_answers": [],
+        "content_need_truncated": true,
+        "answer_type": "normal",
+        "is_copyable": false,
+        "navigator_vote": false,
+        "thumbnail": "https://pic1.zhimg.com/v2-1a0329eadfc735ffbf3511fd12d806ef_qhd.jpg?source=c8b7c179"
+      },
+      {
+        "force_login_when_click_read_more": false,
+        "endorsements": [
+          {
+            "action_url": "https://www.zhihu.com/column/c_1941219682427344174",
+            "elements": [
+              {
+                "image_key": "zhicon_icon_24_column_fill",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 16,
+                "width": 16,
+                "type": "IMAGE"
+              },
+              {
+                "font_size": 13,
+                "max_line": 1,
+                "content": "收录于 · 美股投资逻辑",
+                "is_bold": false,
+                "font_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "type": "TEXT"
+              },
+              {
+                "image_key": "zhicon_icon_16_arrow_right",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 12,
+                "width": 12,
+                "type": "IMAGE"
+              }
+            ],
+            "sub_elements": [],
+            "sub_elements_type": "DESCRIPTION",
+            "background_color": {
+              "alpha": 0.08,
+              "group": "GBL01A"
+            }
+          }
+        ],
+        "created_time": 1780808837,
+        "is_navigator": false,
+        "biz_ext": {
+          "creation_relationship": {}
+        },
+        "id": "2046941303422850553",
+        "vote_next_step": "vote",
+        "reaction": {
+          "statistics": {
+            "like_count": 38,
+            "favorites": 511
+          },
+          "relation": {
+            "faved": false,
+            "liked": false
+          }
+        },
+        "is_collapsed": false,
+        "author": {
+          "avatar_url_template": "https://pica.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e.jpg?source=c8b7c179",
+          "badge_v2": {
+            "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "detail_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [
+                  {
+                    "avatar_path": "",
+                    "name": "知势榜8月",
+                    "url": "",
+                    "priority": 27,
+                    "token": "",
+                    "avatar_url": "",
+                    "type": "content_potential_category",
+                    "id": "27",
+                    "description": ""
+                  }
+                ],
+                "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                "detail_type": "super_activity",
+                "type": "reward",
+                "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+              }
+            ],
+            "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "merged_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [],
+                "night_icon": "",
+                "detail_type": "best",
+                "type": "best",
+                "icon": ""
+              }
+            ],
+            "title": "知势榜影响力榜经济与管理领域答主"
+          },
+          "name": "环中星鉴",
+          "headline": "独立投资人, INTJ, 公号同名",
+          "gender": -1,
+          "user_type": "people",
+          "url_token": "lrc-8",
+          "is_advertiser": false,
+          "avatar_url": "https://pica.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e_l.jpg?source=c8b7c179",
+          "url": "http://www.zhihu.com/api/v4/people/5329e6ee6332a15761661ffcd216e5d6",
+          "type": "people",
+          "badge": [],
+          "id": "5329e6ee6332a15761661ffcd216e5d6",
+          "is_org": false
+        },
+        "url": "http://www.zhihu.com/api/v4/answers/2046941303422850553",
+        "type": "answer",
+        "question": {
+          "question_type": "normal",
+          "created": 1780736777,
+          "url": "http://www.zhihu.com/api/v4/questions/2046639064917586455",
+          "title": "SpaceX、OpenAI、Anthropic 扎堆天价 IPO，水分有多大？美股牛市是否临近尾声？",
+          "type": "question",
+          "id": "2046639064917586455",
+          "updated_time": 1780742899
+        },
+        "updated_time": 1780847418,
+        "extras": "",
+        "same_video_answers": [],
+        "content_need_truncated": true,
+        "answer_type": "normal",
+        "is_copyable": false,
+        "navigator_vote": false,
+        "thumbnail": "https://picx.zhimg.com/v2-9d9ed51cd2daa1a4d3a1f893850bc771_qhd.jpg?source=c8b7c179"
+      },
+      {
+        "force_login_when_click_read_more": false,
+        "endorsements": [
+          {
+            "action_url": "https://www.zhihu.com/people/0a5e0f8991d30fb4aaa53c2c26f31f9b",
+            "elements": [
+              {
+                "image_key": "zhicon_icon_24_crab_fill",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL07A"
+                },
+                "height": 16,
+                "width": 16,
+                "type": "IMAGE"
+              },
+              {
+                "font_size": 13,
+                "max_line": 1,
+                "content": "谢邀 @Madao",
+                "is_bold": true,
+                "font_color": {
+                  "alpha": 1.0,
+                  "group": "GBL07A"
+                },
+                "type": "TEXT"
+              }
+            ],
+            "sub_elements": [],
+            "sub_elements_type": "DESCRIPTION",
+            "background_color": {
+              "alpha": 0.1,
+              "group": "GBL01A"
+            }
+          },
+          {
+            "action_url": "https://www.zhihu.com/column/c_1933255949780522927",
+            "elements": [
+              {
+                "image_key": "zhicon_icon_24_column_fill",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 16,
+                "width": 16,
+                "type": "IMAGE"
+              },
+              {
+                "font_size": 13,
+                "max_line": 1,
+                "content": "收录于 · 黄金/白银/铜/石油大宗投资",
+                "is_bold": false,
+                "font_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "type": "TEXT"
+              },
+              {
+                "image_key": "zhicon_icon_16_arrow_right",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 12,
+                "width": 12,
+                "type": "IMAGE"
+              }
+            ],
+            "sub_elements": [],
+            "sub_elements_type": "DESCRIPTION",
+            "background_color": {
+              "alpha": 0.08,
+              "group": "GBL01A"
+            }
+          }
+        ],
+        "created_time": 1780736811,
+        "is_navigator": false,
+        "biz_ext": {
+          "creation_relationship": {}
+        },
+        "id": "2046639205053371240",
+        "vote_next_step": "vote",
+        "reaction": {
+          "statistics": {
+            "like_count": 23,
+            "favorites": 180
+          },
+          "relation": {
+            "faved": false,
+            "liked": false
+          }
+        },
+        "is_collapsed": false,
+        "author": {
+          "avatar_url_template": "https://pic1.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e.jpg?source=c8b7c179",
+          "badge_v2": {
+            "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "detail_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [
+                  {
+                    "avatar_path": "",
+                    "name": "知势榜8月",
+                    "url": "",
+                    "priority": 27,
+                    "token": "",
+                    "avatar_url": "",
+                    "type": "content_potential_category",
+                    "id": "27",
+                    "description": ""
+                  }
+                ],
+                "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                "detail_type": "super_activity",
+                "type": "reward",
+                "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+              }
+            ],
+            "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "merged_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [],
+                "night_icon": "",
+                "detail_type": "best",
+                "type": "best",
+                "icon": ""
+              }
+            ],
+            "title": "知势榜影响力榜经济与管理领域答主"
+          },
+          "name": "环中星鉴",
+          "headline": "独立投资人, INTJ, 公号同名",
+          "gender": -1,
+          "user_type": "people",
+          "url_token": "lrc-8",
+          "is_advertiser": false,
+          "avatar_url": "https://picx.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e_l.jpg?source=c8b7c179",
+          "url": "http://www.zhihu.com/api/v4/people/5329e6ee6332a15761661ffcd216e5d6",
+          "type": "people",
+          "badge": [],
+          "id": "5329e6ee6332a15761661ffcd216e5d6",
+          "is_org": false
+        },
+        "url": "http://www.zhihu.com/api/v4/answers/2046639205053371240",
+        "type": "answer",
+        "question": {
+          "question_type": "normal",
+          "created": 1780670305,
+          "url": "http://www.zhihu.com/api/v4/questions/2046360260902909588",
+          "title": "美股三大指数集体收跌，纳指跌超 1100 点，美国非农数据大幅超预期，加息预期升温，哪些信息值得关注？",
+          "type": "question",
+          "id": "2046360260902909588",
+          "updated_time": 1780703547
+        },
+        "updated_time": 1780739548,
+        "extras": "",
+        "same_video_answers": [],
+        "content_need_truncated": true,
+        "answer_type": "normal",
+        "is_copyable": false,
+        "navigator_vote": false,
+        "thumbnail": "https://picx.zhimg.com/v2-4a08feb57e4f2c62c6aae61f28f75987_qhd.jpg?source=c8b7c179"
+      },
+      {
+        "force_login_when_click_read_more": false,
+        "endorsements": [
+          {
+            "action_url": "https://www.zhihu.com/column/c_1941219682427344174",
+            "elements": [
+              {
+                "image_key": "zhicon_icon_24_column_fill",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 16,
+                "width": 16,
+                "type": "IMAGE"
+              },
+              {
+                "font_size": 13,
+                "max_line": 1,
+                "content": "收录于 · 美股投资逻辑",
+                "is_bold": false,
+                "font_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "type": "TEXT"
+              },
+              {
+                "image_key": "zhicon_icon_16_arrow_right",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL01A"
+                },
+                "height": 12,
+                "width": 12,
+                "type": "IMAGE"
+              }
+            ],
+            "sub_elements": [],
+            "sub_elements_type": "DESCRIPTION",
+            "background_color": {
+              "alpha": 0.08,
+              "group": "GBL01A"
+            }
+          },
+          {
+            "elements": [
+              {
+                "font_size": 13,
+                "max_line": 1,
+                "content": "创作声明：包含投资理财内容",
+                "is_bold": true,
+                "font_color": {
+                  "alpha": 1.0,
+                  "group": "GBL07A"
+                },
+                "type": "TEXT"
+              },
+              {
+                "image_key": "zhicon_icon_16_arrow_down",
+                "image_color": {
+                  "alpha": 1.0,
+                  "group": "GBL07A"
+                },
+                "height": 12,
+                "width": 12,
+                "type": "IMAGE",
+                "selected_image_key": "zhicon_icon_16_arrow_up"
+              }
+            ],
+            "sub_elements": [
+              {
+                "elements": [
+                  {
+                    "font_size": 13,
+                    "max_line": 1,
+                    "content": "创作声明：包含投资理财内容",
+                    "is_bold": true,
+                    "font_color": {
+                      "alpha": 1.0,
+                      "group": "GBL07A"
+                    },
+                    "type": "TEXT"
+                  }
+                ]
+              },
+              {
+                "elements": [
+                  {
+                    "font_size": 13,
+                    "max_line": 1,
+                    "content": "不构成具体理财指导，请谨慎甄别相关风险",
+                    "is_bold": false,
+                    "font_color": {
+                      "alpha": 1.0,
+                      "group": "GBL07A"
+                    },
+                    "type": "TEXT"
+                  }
+                ]
+              }
+            ],
+            "sub_elements_type": "DESCRIPTION",
+            "background_color": {
+              "alpha": 0.1,
+              "group": "GBL01A"
+            }
+          }
+        ],
+        "created_time": 1780642448,
+        "is_navigator": false,
+        "biz_ext": {
+          "creation_relationship": {}
+        },
+        "id": "2046243418888786489",
+        "vote_next_step": "vote",
+        "reaction": {
+          "statistics": {
+            "like_count": 5,
+            "favorites": 55
+          },
+          "relation": {
+            "faved": false,
+            "liked": false
+          }
+        },
+        "is_collapsed": false,
+        "author": {
+          "avatar_url_template": "https://picx.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e.jpg?source=c8b7c179",
+          "badge_v2": {
+            "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "detail_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [
+                  {
+                    "avatar_path": "",
+                    "name": "知势榜8月",
+                    "url": "",
+                    "priority": 27,
+                    "token": "",
+                    "avatar_url": "",
+                    "type": "content_potential_category",
+                    "id": "27",
+                    "description": ""
+                  }
+                ],
+                "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                "detail_type": "super_activity",
+                "type": "reward",
+                "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+              }
+            ],
+            "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+            "merged_badges": [
+              {
+                "description": "知势榜影响力榜经济与管理领域答主",
+                "title": "社区成就",
+                "url": "",
+                "sources": [],
+                "night_icon": "",
+                "detail_type": "best",
+                "type": "best",
+                "icon": ""
+              }
+            ],
+            "title": "知势榜影响力榜经济与管理领域答主"
+          },
+          "name": "环中星鉴",
+          "headline": "独立投资人, INTJ, 公号同名",
+          "gender": -1,
+          "user_type": "people",
+          "url_token": "lrc-8",
+          "is_advertiser": false,
+          "avatar_url": "https://pica.zhimg.com/v2-082903ba99bf29f9a83f993633fde63e_l.jpg?source=c8b7c179",
+          "url": "http://www.zhihu.com/api/v4/people/5329e6ee6332a15761661ffcd216e5d6",
+          "type": "people",
+          "badge": [],
+          "id": "5329e6ee6332a15761661ffcd216e5d6",
+          "is_org": false
+        },
+        "url": "http://www.zhihu.com/api/v4/answers/2046243418888786489",
+        "type": "answer",
+        "question": {
+          "question_type": "normal",
+          "created": 1780564142,
+          "url": "http://www.zhihu.com/api/v4/questions/2045914979002315116",
+          "title": "美股芯片巨头博通AI 半导体收入增长超 200%，为什么股价却暴跌 15%？背后有哪些因素值得关注？",
+          "type": "question",
+          "id": "2045914979002315116",
+          "updated_time": 1780564142
+        },
+        "updated_time": 1780644250,
+        "extras": "",
+        "same_video_answers": [],
+        "content_need_truncated": true,
+        "answer_type": "normal",
+        "is_copyable": false,
+        "navigator_vote": false,
+        "thumbnail": "https://picx.zhimg.com/v2-711c8d62d05328e4fd3842cf210e6531_qhd.jpg?source=c8b7c179"
+      }
+    ],
+    "need_force_login": false
+  }
+}
