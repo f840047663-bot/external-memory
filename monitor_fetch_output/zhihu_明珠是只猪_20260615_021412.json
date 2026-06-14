@@ -1,0 +1,22 @@
+{
+  "platform": "知乎",
+  "blogger": "明珠是只猪",
+  "url_token": "liu-bei-14-54",
+  "fetched_at": "2026-06-15 02:14:12",
+  "checkpoint": "2026-06-14 01:00",
+  "checkpoint_ts": 1781226000,
+  "total_items": 37,
+  "new_items": 1,
+  "items": [
+    {
+      "id": "2049052773434631599",
+      "title": "如何评价游资陈小群？",
+      "url": "https://www.zhihu.com/question/1940086561845772523/answer/2049052773434631599",
+      "date": "2026-06-13 08:57",
+      "timestamp": 1781312250,
+      "type": "answer",
+      "voteup": 0
+    }
+  ],
+  "errors": []
+}

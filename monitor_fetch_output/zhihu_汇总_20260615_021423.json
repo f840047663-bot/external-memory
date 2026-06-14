@@ -1,0 +1,28 @@
+{
+  "platform": "知乎",
+  "fetched_at": "2026-06-15 02:14:23",
+  "checkpoint": "2026-06-14 01:00",
+  "total_new": 26,
+  "results": {
+    "古都闲云": {
+      "new": 6,
+      "total": 40,
+      "errors": []
+    },
+    "明珠是只猪": {
+      "new": 1,
+      "total": 37,
+      "errors": []
+    },
+    "环中星鉴": {
+      "new": 8,
+      "total": 40,
+      "errors": []
+    },
+    "闻号说经济": {
+      "new": 11,
+      "total": 40,
+      "errors": []
+    }
+  }
+}
