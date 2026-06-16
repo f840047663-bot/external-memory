@@ -1,0 +1,989 @@
+{
+  "paging": {
+    "is_end": false,
+    "totals": 2519,
+    "previous": "http://www.zhihu.com/api/v4/members/gududatong/answers?limit=5&offset=0",
+    "is_start": true,
+    "next": "http://www.zhihu.com/api/v4/members/gududatong/answers?limit=5&offset=5"
+  },
+  "data": [
+    {
+      "force_login_when_click_read_more": false,
+      "endorsements": [
+        {
+          "action_url": "https://www.zhihu.com/column/c_1980680574407553080",
+          "elements": [
+            {
+              "image_key": "zhicon_icon_24_column_fill",
+              "image_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "height": 16,
+              "width": 16,
+              "type": "IMAGE"
+            },
+            {
+              "font_size": 13,
+              "max_line": 1,
+              "content": "收录于 · 楼市软着陆的动态观测",
+              "is_bold": false,
+              "font_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "type": "TEXT"
+            },
+            {
+              "image_key": "zhicon_icon_16_arrow_right",
+              "image_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "height": 12,
+              "width": 12,
+              "type": "IMAGE"
+            }
+          ],
+          "sub_elements": [],
+          "sub_elements_type": "DESCRIPTION",
+          "background_color": {
+            "alpha": 0.08,
+            "group": "GBL01A"
+          }
+        }
+      ],
+      "created_time": 1781598726,
+      "is_navigator": false,
+      "biz_ext": {
+        "creation_relationship": {}
+      },
+      "id": "2050254341383235514",
+      "vote_next_step": "vote",
+      "reaction": {
+        "statistics": {
+          "like_count": 0,
+          "favorites": 9
+        },
+        "relation": {
+          "faved": false,
+          "liked": false
+        }
+      },
+      "is_collapsed": false,
+      "author": {
+        "avatar_url_template": "https://pica.zhimg.com/v2-258362c6ccca6d120ccd23a3a87f4f3c.jpg?source=c8b7c179",
+        "badge": [
+          {
+            "topics": [
+              {
+                "url": "http://www.zhihu.com/api/v4/topics/20008012",
+                "avatar_url": "https://pica.zhimg.com/v2-40e779d5c5e6bcebda41e92d50594618_l.jpg?source=c8b7c179",
+                "name": "人口经济学",
+                "introduction": "",
+                "type": "topic",
+                "excerpt": "",
+                "id": "20008012"
+              }
+            ],
+            "type": "best_answerer",
+            "description": "优秀回答者"
+          }
+        ],
+        "badge_v2": {
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "detail_badges": [
+            {
+              "description": "新知答主",
+              "title": "年度新知答主",
+              "url": "https://www.zhihu.com/question/510340037",
+              "sources": [
+                {
+                  "avatar_path": "",
+                  "name": "",
+                  "url": "",
+                  "priority": 2025,
+                  "token": "",
+                  "avatar_url": "",
+                  "type": "year",
+                  "id": "2025",
+                  "description": ""
+                }
+              ],
+              "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+              "detail_type": "zhihu_yearly_answerer",
+              "type": "reward",
+              "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+            },
+            {
+              "description": "人口经济学等 2 个话题下的优秀答主",
+              "title": "优秀答主",
+              "url": "https://www.zhihu.com/question/48509984",
+              "sources": [
+                {
+                  "avatar_path": "v2-40e779d5c5e6bcebda41e92d50594618",
+                  "name": "人口经济学",
+                  "url": "https://www.zhihu.com/topic/20008012",
+                  "priority": 0,
+                  "token": "20008012",
+                  "avatar_url": "https://pica.zhimg.com/v2-40e779d5c5e6bcebda41e92d50594618_720w.jpg?source=32738c0c",
+                  "type": "topic",
+                  "id": "20008012",
+                  "description": ""
+                },
+                {
+                  "avatar_path": "v2-804058bfd6eafd91e9dc700749c681f2",
+                  "name": "行为经济学",
+                  "url": "https://www.zhihu.com/topic/19564158",
+                  "priority": 0,
+                  "token": "19564158",
+                  "avatar_url": "https://pic1.zhimg.com/v2-804058bfd6eafd91e9dc700749c681f2_720w.jpg?source=32738c0c",
+                  "type": "topic",
+                  "id": "19564158",
+                  "description": ""
+                }
+              ],
+              "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+              "detail_type": "best_answerer",
+              "type": "best",
+              "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+            }
+          ],
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "merged_badges": [
+            {
+              "description": "新知答主",
+              "title": "年度新知答主",
+              "url": "https://www.zhihu.com/question/510340037",
+              "sources": [],
+              "night_icon": "",
+              "detail_type": "best",
+              "type": "best",
+              "icon": ""
+            }
+          ],
+          "title": "新知答主"
+        },
+        "name": "古都闲云",
+        "url": "http://www.zhihu.com/api/v4/people/8371bdb66636dfd67cf1aa178c3768e6",
+        "gender": 1,
+        "user_type": "people",
+        "url_token": "gududatong",
+        "is_advertiser": false,
+        "avatar_url": "https://pica.zhimg.com/v2-258362c6ccca6d120ccd23a3a87f4f3c_l.jpg?source=c8b7c179",
+        "is_org": false,
+        "headline": "用数据、逻辑和经济理性看透复杂现象。",
+        "type": "people",
+        "id": "8371bdb66636dfd67cf1aa178c3768e6"
+      },
+      "url": "http://www.zhihu.com/api/v4/answers/2050254341383235514",
+      "type": "answer",
+      "question": {
+        "question_type": "normal",
+        "created": 1781575145,
+        "url": "http://www.zhihu.com/api/v4/questions/2050155433147326780",
+        "title": "市场普遍认为「这轮地产调整已经到达深度调整区域」，历史性大底要来了吗？",
+        "type": "question",
+        "id": "2050155433147326780",
+        "updated_time": 1781577581
+      },
+      "updated_time": 1781598726,
+      "extras": "",
+      "same_video_answers": [],
+      "content_need_truncated": true,
+      "answer_type": "normal",
+      "is_copyable": false,
+      "navigator_vote": false,
+      "thumbnail": ""
+    },
+    {
+      "force_login_when_click_read_more": false,
+      "endorsements": [
+        {
+          "action_url": "https://www.zhihu.com/people/aac6dc309f3303a393a4fcf724366d0a",
+          "elements": [
+            {
+              "image_key": "zhicon_icon_24_crab_fill",
+              "image_color": {
+                "alpha": 1.0,
+                "group": "GBL07A"
+              },
+              "height": 16,
+              "width": 16,
+              "type": "IMAGE"
+            },
+            {
+              "font_size": 13,
+              "max_line": 1,
+              "content": "谢邀 @西风长廊",
+              "is_bold": true,
+              "font_color": {
+                "alpha": 1.0,
+                "group": "GBL07A"
+              },
+              "type": "TEXT"
+            }
+          ],
+          "sub_elements": [],
+          "sub_elements_type": "DESCRIPTION",
+          "background_color": {
+            "alpha": 0.1,
+            "group": "GBL01A"
+          }
+        },
+        {
+          "action_url": "https://www.zhihu.com/column/c_1964454875736802394",
+          "elements": [
+            {
+              "image_key": "zhicon_icon_24_column_fill",
+              "image_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "height": 16,
+              "width": 16,
+              "type": "IMAGE"
+            },
+            {
+              "font_size": 13,
+              "max_line": 1,
+              "content": "收录于 · 行为经济学与商业解码",
+              "is_bold": false,
+              "font_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "type": "TEXT"
+            },
+            {
+              "image_key": "zhicon_icon_16_arrow_right",
+              "image_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "height": 12,
+              "width": 12,
+              "type": "IMAGE"
+            }
+          ],
+          "sub_elements": [],
+          "sub_elements_type": "DESCRIPTION",
+          "background_color": {
+            "alpha": 0.08,
+            "group": "GBL01A"
+          }
+        }
+      ],
+      "created_time": 1781592308,
+      "is_navigator": false,
+      "biz_ext": {
+        "creation_relationship": {}
+      },
+      "id": "2050227422281347168",
+      "vote_next_step": "vote",
+      "reaction": {
+        "statistics": {
+          "like_count": 2,
+          "favorites": 33
+        },
+        "relation": {
+          "faved": false,
+          "liked": false
+        }
+      },
+      "is_collapsed": false,
+      "author": {
+        "avatar_url_template": "https://pica.zhimg.com/v2-258362c6ccca6d120ccd23a3a87f4f3c.jpg?source=c8b7c179",
+        "badge": [
+          {
+            "topics": [
+              {
+                "url": "http://www.zhihu.com/api/v4/topics/20008012",
+                "avatar_url": "https://pic1.zhimg.com/v2-40e779d5c5e6bcebda41e92d50594618_l.jpg?source=c8b7c179",
+                "name": "人口经济学",
+                "introduction": "",
+                "type": "topic",
+                "excerpt": "",
+                "id": "20008012"
+              }
+            ],
+            "type": "best_answerer",
+            "description": "优秀回答者"
+          }
+        ],
+        "badge_v2": {
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "detail_badges": [
+            {
+              "description": "新知答主",
+              "title": "年度新知答主",
+              "url": "https://www.zhihu.com/question/510340037",
+              "sources": [
+                {
+                  "avatar_path": "",
+                  "name": "",
+                  "url": "",
+                  "priority": 2025,
+                  "token": "",
+                  "avatar_url": "",
+                  "type": "year",
+                  "id": "2025",
+                  "description": ""
+                }
+              ],
+              "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+              "detail_type": "zhihu_yearly_answerer",
+              "type": "reward",
+              "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+            },
+            {
+              "description": "人口经济学等 2 个话题下的优秀答主",
+              "title": "优秀答主",
+              "url": "https://www.zhihu.com/question/48509984",
+              "sources": [
+                {
+                  "avatar_path": "v2-40e779d5c5e6bcebda41e92d50594618",
+                  "name": "人口经济学",
+                  "url": "https://www.zhihu.com/topic/20008012",
+                  "priority": 0,
+                  "token": "20008012",
+                  "avatar_url": "https://pica.zhimg.com/v2-40e779d5c5e6bcebda41e92d50594618_720w.jpg?source=32738c0c",
+                  "type": "topic",
+                  "id": "20008012",
+                  "description": ""
+                },
+                {
+                  "avatar_path": "v2-804058bfd6eafd91e9dc700749c681f2",
+                  "name": "行为经济学",
+                  "url": "https://www.zhihu.com/topic/19564158",
+                  "priority": 0,
+                  "token": "19564158",
+                  "avatar_url": "https://pic1.zhimg.com/v2-804058bfd6eafd91e9dc700749c681f2_720w.jpg?source=32738c0c",
+                  "type": "topic",
+                  "id": "19564158",
+                  "description": ""
+                }
+              ],
+              "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+              "detail_type": "best_answerer",
+              "type": "best",
+              "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+            }
+          ],
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "merged_badges": [
+            {
+              "description": "新知答主",
+              "title": "年度新知答主",
+              "url": "https://www.zhihu.com/question/510340037",
+              "sources": [],
+              "night_icon": "",
+              "detail_type": "best",
+              "type": "best",
+              "icon": ""
+            }
+          ],
+          "title": "新知答主"
+        },
+        "name": "古都闲云",
+        "url": "http://www.zhihu.com/api/v4/people/8371bdb66636dfd67cf1aa178c3768e6",
+        "gender": 1,
+        "user_type": "people",
+        "url_token": "gududatong",
+        "is_advertiser": false,
+        "avatar_url": "https://picx.zhimg.com/v2-258362c6ccca6d120ccd23a3a87f4f3c_l.jpg?source=c8b7c179",
+        "is_org": false,
+        "headline": "用数据、逻辑和经济理性看透复杂现象。",
+        "type": "people",
+        "id": "8371bdb66636dfd67cf1aa178c3768e6"
+      },
+      "url": "http://www.zhihu.com/api/v4/answers/2050227422281347168",
+      "type": "answer",
+      "question": {
+        "question_type": "normal",
+        "created": 1781577417,
+        "url": "http://www.zhihu.com/api/v4/questions/2050164965340980884",
+        "title": "中国 5 月社会消费品零售总额同比下降 0.6%，远低于预期，这意味着什么？",
+        "type": "question",
+        "id": "2050164965340980884",
+        "updated_time": 1781577417
+      },
+      "updated_time": 1781592308,
+      "extras": "",
+      "same_video_answers": [],
+      "content_need_truncated": true,
+      "answer_type": "normal",
+      "is_copyable": false,
+      "navigator_vote": false,
+      "thumbnail": ""
+    },
+    {
+      "force_login_when_click_read_more": false,
+      "endorsements": [
+        {
+          "action_url": "https://www.zhihu.com/column/c_1964454875736802394",
+          "elements": [
+            {
+              "image_key": "zhicon_icon_24_column_fill",
+              "image_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "height": 16,
+              "width": 16,
+              "type": "IMAGE"
+            },
+            {
+              "font_size": 13,
+              "max_line": 1,
+              "content": "收录于 · 行为经济学与商业解码",
+              "is_bold": false,
+              "font_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "type": "TEXT"
+            },
+            {
+              "image_key": "zhicon_icon_16_arrow_right",
+              "image_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "height": 12,
+              "width": 12,
+              "type": "IMAGE"
+            }
+          ],
+          "sub_elements": [],
+          "sub_elements_type": "DESCRIPTION",
+          "background_color": {
+            "alpha": 0.08,
+            "group": "GBL01A"
+          }
+        }
+      ],
+      "created_time": 1781585903,
+      "is_navigator": false,
+      "biz_ext": {
+        "creation_relationship": {}
+      },
+      "id": "2050200554958221692",
+      "vote_next_step": "vote",
+      "reaction": {
+        "statistics": {
+          "like_count": 2,
+          "favorites": 8
+        },
+        "relation": {
+          "faved": false,
+          "liked": false
+        }
+      },
+      "is_collapsed": false,
+      "author": {
+        "avatar_url_template": "https://picx.zhimg.com/v2-258362c6ccca6d120ccd23a3a87f4f3c.jpg?source=c8b7c179",
+        "badge": [
+          {
+            "topics": [
+              {
+                "url": "http://www.zhihu.com/api/v4/topics/20008012",
+                "avatar_url": "https://pica.zhimg.com/v2-40e779d5c5e6bcebda41e92d50594618_l.jpg?source=c8b7c179",
+                "name": "人口经济学",
+                "introduction": "",
+                "type": "topic",
+                "excerpt": "",
+                "id": "20008012"
+              }
+            ],
+            "type": "best_answerer",
+            "description": "优秀回答者"
+          }
+        ],
+        "badge_v2": {
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "detail_badges": [
+            {
+              "description": "新知答主",
+              "title": "年度新知答主",
+              "url": "https://www.zhihu.com/question/510340037",
+              "sources": [
+                {
+                  "avatar_path": "",
+                  "name": "",
+                  "url": "",
+                  "priority": 2025,
+                  "token": "",
+                  "avatar_url": "",
+                  "type": "year",
+                  "id": "2025",
+                  "description": ""
+                }
+              ],
+              "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+              "detail_type": "zhihu_yearly_answerer",
+              "type": "reward",
+              "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+            },
+            {
+              "description": "人口经济学等 2 个话题下的优秀答主",
+              "title": "优秀答主",
+              "url": "https://www.zhihu.com/question/48509984",
+              "sources": [
+                {
+                  "avatar_path": "v2-40e779d5c5e6bcebda41e92d50594618",
+                  "name": "人口经济学",
+                  "url": "https://www.zhihu.com/topic/20008012",
+                  "priority": 0,
+                  "token": "20008012",
+                  "avatar_url": "https://pica.zhimg.com/v2-40e779d5c5e6bcebda41e92d50594618_720w.jpg?source=32738c0c",
+                  "type": "topic",
+                  "id": "20008012",
+                  "description": ""
+                },
+                {
+                  "avatar_path": "v2-804058bfd6eafd91e9dc700749c681f2",
+                  "name": "行为经济学",
+                  "url": "https://www.zhihu.com/topic/19564158",
+                  "priority": 0,
+                  "token": "19564158",
+                  "avatar_url": "https://pic1.zhimg.com/v2-804058bfd6eafd91e9dc700749c681f2_720w.jpg?source=32738c0c",
+                  "type": "topic",
+                  "id": "19564158",
+                  "description": ""
+                }
+              ],
+              "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+              "detail_type": "best_answerer",
+              "type": "best",
+              "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+            }
+          ],
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "merged_badges": [
+            {
+              "description": "新知答主",
+              "title": "年度新知答主",
+              "url": "https://www.zhihu.com/question/510340037",
+              "sources": [],
+              "night_icon": "",
+              "detail_type": "best",
+              "type": "best",
+              "icon": ""
+            }
+          ],
+          "title": "新知答主"
+        },
+        "name": "古都闲云",
+        "url": "http://www.zhihu.com/api/v4/people/8371bdb66636dfd67cf1aa178c3768e6",
+        "gender": 1,
+        "user_type": "people",
+        "url_token": "gududatong",
+        "is_advertiser": false,
+        "avatar_url": "https://pic1.zhimg.com/v2-258362c6ccca6d120ccd23a3a87f4f3c_l.jpg?source=c8b7c179",
+        "is_org": false,
+        "headline": "用数据、逻辑和经济理性看透复杂现象。",
+        "type": "people",
+        "id": "8371bdb66636dfd67cf1aa178c3768e6"
+      },
+      "url": "http://www.zhihu.com/api/v4/answers/2050200554958221692",
+      "type": "answer",
+      "question": {
+        "question_type": "normal",
+        "created": 1781575439,
+        "url": "http://www.zhihu.com/api/v4/questions/2050156665542894595",
+        "title": "年轻人真的不喝白酒了吗？变成中老年之后也不喝吗？",
+        "type": "question",
+        "id": "2050156665542894595",
+        "updated_time": 1781575439
+      },
+      "updated_time": 1781585903,
+      "extras": "",
+      "same_video_answers": [],
+      "content_need_truncated": true,
+      "answer_type": "normal",
+      "is_copyable": false,
+      "navigator_vote": false,
+      "thumbnail": ""
+    },
+    {
+      "force_login_when_click_read_more": false,
+      "endorsements": [
+        {
+          "action_url": "https://www.zhihu.com/column/c_1980680574407553080",
+          "elements": [
+            {
+              "image_key": "zhicon_icon_24_column_fill",
+              "image_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "height": 16,
+              "width": 16,
+              "type": "IMAGE"
+            },
+            {
+              "font_size": 13,
+              "max_line": 1,
+              "content": "收录于 · 楼市软着陆的动态观测",
+              "is_bold": false,
+              "font_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "type": "TEXT"
+            },
+            {
+              "image_key": "zhicon_icon_16_arrow_right",
+              "image_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "height": 12,
+              "width": 12,
+              "type": "IMAGE"
+            }
+          ],
+          "sub_elements": [],
+          "sub_elements_type": "DESCRIPTION",
+          "background_color": {
+            "alpha": 0.08,
+            "group": "GBL01A"
+          }
+        }
+      ],
+      "created_time": 1781506084,
+      "is_navigator": false,
+      "biz_ext": {
+        "creation_relationship": {}
+      },
+      "id": "2049865769589142735",
+      "vote_next_step": "vote",
+      "reaction": {
+        "statistics": {
+          "like_count": 2,
+          "favorites": 27
+        },
+        "relation": {
+          "faved": false,
+          "liked": false
+        }
+      },
+      "is_collapsed": false,
+      "author": {
+        "avatar_url_template": "https://picx.zhimg.com/v2-258362c6ccca6d120ccd23a3a87f4f3c.jpg?source=c8b7c179",
+        "badge": [
+          {
+            "topics": [
+              {
+                "url": "http://www.zhihu.com/api/v4/topics/20008012",
+                "avatar_url": "https://pic1.zhimg.com/v2-40e779d5c5e6bcebda41e92d50594618_l.jpg?source=c8b7c179",
+                "name": "人口经济学",
+                "introduction": "",
+                "type": "topic",
+                "excerpt": "",
+                "id": "20008012"
+              }
+            ],
+            "type": "best_answerer",
+            "description": "优秀回答者"
+          }
+        ],
+        "badge_v2": {
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "detail_badges": [
+            {
+              "description": "新知答主",
+              "title": "年度新知答主",
+              "url": "https://www.zhihu.com/question/510340037",
+              "sources": [
+                {
+                  "avatar_path": "",
+                  "name": "",
+                  "url": "",
+                  "priority": 2025,
+                  "token": "",
+                  "avatar_url": "",
+                  "type": "year",
+                  "id": "2025",
+                  "description": ""
+                }
+              ],
+              "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+              "detail_type": "zhihu_yearly_answerer",
+              "type": "reward",
+              "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+            },
+            {
+              "description": "人口经济学等 2 个话题下的优秀答主",
+              "title": "优秀答主",
+              "url": "https://www.zhihu.com/question/48509984",
+              "sources": [
+                {
+                  "avatar_path": "v2-40e779d5c5e6bcebda41e92d50594618",
+                  "name": "人口经济学",
+                  "url": "https://www.zhihu.com/topic/20008012",
+                  "priority": 0,
+                  "token": "20008012",
+                  "avatar_url": "https://pica.zhimg.com/v2-40e779d5c5e6bcebda41e92d50594618_720w.jpg?source=32738c0c",
+                  "type": "topic",
+                  "id": "20008012",
+                  "description": ""
+                },
+                {
+                  "avatar_path": "v2-804058bfd6eafd91e9dc700749c681f2",
+                  "name": "行为经济学",
+                  "url": "https://www.zhihu.com/topic/19564158",
+                  "priority": 0,
+                  "token": "19564158",
+                  "avatar_url": "https://pic1.zhimg.com/v2-804058bfd6eafd91e9dc700749c681f2_720w.jpg?source=32738c0c",
+                  "type": "topic",
+                  "id": "19564158",
+                  "description": ""
+                }
+              ],
+              "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+              "detail_type": "best_answerer",
+              "type": "best",
+              "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+            }
+          ],
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "merged_badges": [
+            {
+              "description": "新知答主",
+              "title": "年度新知答主",
+              "url": "https://www.zhihu.com/question/510340037",
+              "sources": [],
+              "night_icon": "",
+              "detail_type": "best",
+              "type": "best",
+              "icon": ""
+            }
+          ],
+          "title": "新知答主"
+        },
+        "name": "古都闲云",
+        "url": "http://www.zhihu.com/api/v4/people/8371bdb66636dfd67cf1aa178c3768e6",
+        "gender": 1,
+        "user_type": "people",
+        "url_token": "gududatong",
+        "is_advertiser": false,
+        "avatar_url": "https://pica.zhimg.com/v2-258362c6ccca6d120ccd23a3a87f4f3c_l.jpg?source=c8b7c179",
+        "is_org": false,
+        "headline": "用数据、逻辑和经济理性看透复杂现象。",
+        "type": "people",
+        "id": "8371bdb66636dfd67cf1aa178c3768e6"
+      },
+      "url": "http://www.zhihu.com/api/v4/answers/2049865769589142735",
+      "type": "answer",
+      "question": {
+        "question_type": "normal",
+        "created": 1781434013,
+        "url": "http://www.zhihu.com/api/v4/questions/2049563481884701466",
+        "title": "老破小成抢手货，租售比超 2% 跑赢存款利率，反映了房地产市场的哪些变化？投资老破小需注意哪些风险？",
+        "type": "question",
+        "id": "2049563481884701466",
+        "updated_time": 1781491724
+      },
+      "updated_time": 1781506084,
+      "extras": "",
+      "same_video_answers": [],
+      "content_need_truncated": true,
+      "answer_type": "normal",
+      "is_copyable": false,
+      "navigator_vote": false,
+      "thumbnail": ""
+    },
+    {
+      "force_login_when_click_read_more": false,
+      "endorsements": [
+        {
+          "action_url": "https://www.zhihu.com/column/c_1964454875736802394",
+          "elements": [
+            {
+              "image_key": "zhicon_icon_24_column_fill",
+              "image_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "height": 16,
+              "width": 16,
+              "type": "IMAGE"
+            },
+            {
+              "font_size": 13,
+              "max_line": 1,
+              "content": "收录于 · 行为经济学与商业解码",
+              "is_bold": false,
+              "font_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "type": "TEXT"
+            },
+            {
+              "image_key": "zhicon_icon_16_arrow_right",
+              "image_color": {
+                "alpha": 1.0,
+                "group": "GBL01A"
+              },
+              "height": 12,
+              "width": 12,
+              "type": "IMAGE"
+            }
+          ],
+          "sub_elements": [],
+          "sub_elements_type": "DESCRIPTION",
+          "background_color": {
+            "alpha": 0.08,
+            "group": "GBL01A"
+          }
+        }
+      ],
+      "created_time": 1781496043,
+      "is_navigator": false,
+      "biz_ext": {
+        "creation_relationship": {}
+      },
+      "id": "2049823656059131230",
+      "vote_next_step": "vote",
+      "reaction": {
+        "statistics": {
+          "like_count": 0,
+          "favorites": 23
+        },
+        "relation": {
+          "faved": false,
+          "liked": false
+        }
+      },
+      "is_collapsed": false,
+      "author": {
+        "avatar_url_template": "https://pic1.zhimg.com/v2-258362c6ccca6d120ccd23a3a87f4f3c.jpg?source=c8b7c179",
+        "badge": [
+          {
+            "topics": [
+              {
+                "url": "http://www.zhihu.com/api/v4/topics/20008012",
+                "avatar_url": "https://pic1.zhimg.com/v2-40e779d5c5e6bcebda41e92d50594618_l.jpg?source=c8b7c179",
+                "name": "人口经济学",
+                "introduction": "",
+                "type": "topic",
+                "excerpt": "",
+                "id": "20008012"
+              }
+            ],
+            "type": "best_answerer",
+            "description": "优秀回答者"
+          }
+        ],
+        "badge_v2": {
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "detail_badges": [
+            {
+              "description": "新知答主",
+              "title": "年度新知答主",
+              "url": "https://www.zhihu.com/question/510340037",
+              "sources": [
+                {
+                  "avatar_path": "",
+                  "name": "",
+                  "url": "",
+                  "priority": 2025,
+                  "token": "",
+                  "avatar_url": "",
+                  "type": "year",
+                  "id": "2025",
+                  "description": ""
+                }
+              ],
+              "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+              "detail_type": "zhihu_yearly_answerer",
+              "type": "reward",
+              "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+            },
+            {
+              "description": "人口经济学等 2 个话题下的优秀答主",
+              "title": "优秀答主",
+              "url": "https://www.zhihu.com/question/48509984",
+              "sources": [
+                {
+                  "avatar_path": "v2-40e779d5c5e6bcebda41e92d50594618",
+                  "name": "人口经济学",
+                  "url": "https://www.zhihu.com/topic/20008012",
+                  "priority": 0,
+                  "token": "20008012",
+                  "avatar_url": "https://pica.zhimg.com/v2-40e779d5c5e6bcebda41e92d50594618_720w.jpg?source=32738c0c",
+                  "type": "topic",
+                  "id": "20008012",
+                  "description": ""
+                },
+                {
+                  "avatar_path": "v2-804058bfd6eafd91e9dc700749c681f2",
+                  "name": "行为经济学",
+                  "url": "https://www.zhihu.com/topic/19564158",
+                  "priority": 0,
+                  "token": "19564158",
+                  "avatar_url": "https://pic1.zhimg.com/v2-804058bfd6eafd91e9dc700749c681f2_720w.jpg?source=32738c0c",
+                  "type": "topic",
+                  "id": "19564158",
+                  "description": ""
+                }
+              ],
+              "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+              "detail_type": "best_answerer",
+              "type": "best",
+              "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c"
+            }
+          ],
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "merged_badges": [
+            {
+              "description": "新知答主",
+              "title": "年度新知答主",
+              "url": "https://www.zhihu.com/question/510340037",
+              "sources": [],
+              "night_icon": "",
+              "detail_type": "best",
+              "type": "best",
+              "icon": ""
+            }
+          ],
+          "title": "新知答主"
+        },
+        "name": "古都闲云",
+        "url": "http://www.zhihu.com/api/v4/people/8371bdb66636dfd67cf1aa178c3768e6",
+        "gender": 1,
+        "user_type": "people",
+        "url_token": "gududatong",
+        "is_advertiser": false,
+        "avatar_url": "https://pica.zhimg.com/v2-258362c6ccca6d120ccd23a3a87f4f3c_l.jpg?source=c8b7c179",
+        "is_org": false,
+        "headline": "用数据、逻辑和经济理性看透复杂现象。",
+        "type": "people",
+        "id": "8371bdb66636dfd67cf1aa178c3768e6"
+      },
+      "url": "http://www.zhihu.com/api/v4/answers/2049823656059131230",
+      "type": "answer",
+      "question": {
+        "question_type": "normal",
+        "created": 1781480371,
+        "url": "http://www.zhihu.com/api/v4/questions/2049757922381357309",
+        "title": "茅台总经理王莉称「停售冰淇淋、咖啡和巧克力，未来联名将非常谨慎」，如何解读？",
+        "type": "question",
+        "id": "2049757922381357309",
+        "updated_time": 1781480371
+      },
+      "updated_time": 1781496043,
+      "extras": "",
+      "same_video_answers": [],
+      "content_need_truncated": true,
+      "answer_type": "normal",
+      "is_copyable": false,
+      "navigator_vote": false,
+      "thumbnail": ""
+    }
+  ],
+  "need_force_login": false
+}

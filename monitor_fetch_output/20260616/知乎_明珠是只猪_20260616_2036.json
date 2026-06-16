@@ -1,0 +1,356 @@
+{
+  "paging": {
+    "is_end": false,
+    "totals": 49,
+    "previous": "http://www.zhihu.com/api/v4/members/liu-bei-14-54/answers?limit=5&offset=0",
+    "is_start": true,
+    "next": "http://www.zhihu.com/api/v4/members/liu-bei-14-54/answers?limit=5&offset=5"
+  },
+  "data": [
+    {
+      "force_login_when_click_read_more": false,
+      "created_time": 1781312250,
+      "is_navigator": false,
+      "biz_ext": {
+        "creation_relationship": {}
+      },
+      "id": "2049052773434631599",
+      "vote_next_step": "vote",
+      "reaction": {
+        "statistics": {
+          "like_count": 7,
+          "favorites": 61
+        },
+        "relation": {
+          "faved": false,
+          "liked": false
+        }
+      },
+      "is_collapsed": false,
+      "author": {
+        "avatar_url_template": "https://picx.zhimg.com/v2-f577eb2c527a355af1a4fa5da0972bdd.jpg?source=c8b7c179",
+        "badge_v2": {
+          "icon": "",
+          "detail_badges": [],
+          "night_icon": "",
+          "merged_badges": [],
+          "title": ""
+        },
+        "name": "明珠是只猪",
+        "headline": "前大学老师，职业股民",
+        "gender": 1,
+        "user_type": "people",
+        "url_token": "liu-bei-14-54",
+        "is_advertiser": false,
+        "avatar_url": "https://pic1.zhimg.com/v2-f577eb2c527a355af1a4fa5da0972bdd_l.jpg?source=c8b7c179",
+        "url": "http://www.zhihu.com/api/v4/people/d3c29a1e20540ddc43fe3056ebf984bb",
+        "type": "people",
+        "badge": [],
+        "id": "d3c29a1e20540ddc43fe3056ebf984bb",
+        "is_org": false
+      },
+      "url": "http://www.zhihu.com/api/v4/answers/2049052773434631599",
+      "navigator_vote": false,
+      "question": {
+        "question_type": "normal",
+        "created": 1755332681,
+        "url": "http://www.zhihu.com/api/v4/questions/1940086561845772523",
+        "title": "如何评价游资陈小群？",
+        "type": "question",
+        "id": "1940086561845772523",
+        "updated_time": 1755332681
+      },
+      "updated_time": 1781312250,
+      "extras": "",
+      "same_video_answers": [],
+      "content_need_truncated": true,
+      "answer_type": "normal",
+      "is_copyable": true,
+      "type": "answer",
+      "thumbnail": ""
+    },
+    {
+      "force_login_when_click_read_more": false,
+      "created_time": 1781052418,
+      "is_navigator": false,
+      "biz_ext": {
+        "creation_relationship": {}
+      },
+      "id": "2047962958890849739",
+      "vote_next_step": "vote",
+      "reaction": {
+        "statistics": {
+          "like_count": 1,
+          "favorites": 61
+        },
+        "relation": {
+          "faved": false,
+          "liked": false
+        }
+      },
+      "is_collapsed": false,
+      "author": {
+        "avatar_url_template": "https://picx.zhimg.com/v2-f577eb2c527a355af1a4fa5da0972bdd.jpg?source=c8b7c179",
+        "badge_v2": {
+          "icon": "",
+          "detail_badges": [],
+          "night_icon": "",
+          "merged_badges": [],
+          "title": ""
+        },
+        "name": "明珠是只猪",
+        "headline": "前大学老师，职业股民",
+        "gender": 1,
+        "user_type": "people",
+        "url_token": "liu-bei-14-54",
+        "is_advertiser": false,
+        "avatar_url": "https://pica.zhimg.com/v2-f577eb2c527a355af1a4fa5da0972bdd_l.jpg?source=c8b7c179",
+        "url": "http://www.zhihu.com/api/v4/people/d3c29a1e20540ddc43fe3056ebf984bb",
+        "type": "people",
+        "badge": [],
+        "id": "d3c29a1e20540ddc43fe3056ebf984bb",
+        "is_org": false
+      },
+      "url": "http://www.zhihu.com/api/v4/answers/2047962958890849739",
+      "navigator_vote": false,
+      "question": {
+        "question_type": "normal",
+        "created": 1511428824,
+        "url": "http://www.zhihu.com/api/v4/questions/68542131",
+        "title": "如何评价查理芒格？",
+        "type": "question",
+        "id": "68542131",
+        "updated_time": 1511428824
+      },
+      "updated_time": 1781052418,
+      "extras": "",
+      "same_video_answers": [],
+      "content_need_truncated": true,
+      "answer_type": "normal",
+      "is_copyable": true,
+      "type": "answer",
+      "thumbnail": ""
+    },
+    {
+      "force_login_when_click_read_more": false,
+      "created_time": 1780801792,
+      "is_navigator": false,
+      "biz_ext": {
+        "creation_relationship": {}
+      },
+      "id": "2046911757684306204",
+      "vote_next_step": "unvote",
+      "reaction": {
+        "statistics": {
+          "like_count": 4,
+          "favorites": 122
+        },
+        "relation": {
+          "faved": false,
+          "liked": false
+        }
+      },
+      "is_collapsed": false,
+      "author": {
+        "avatar_url_template": "https://pic1.zhimg.com/v2-f577eb2c527a355af1a4fa5da0972bdd.jpg?source=c8b7c179",
+        "badge_v2": {
+          "icon": "",
+          "detail_badges": [],
+          "night_icon": "",
+          "merged_badges": [],
+          "title": ""
+        },
+        "name": "明珠是只猪",
+        "headline": "前大学老师，职业股民",
+        "gender": 1,
+        "user_type": "people",
+        "url_token": "liu-bei-14-54",
+        "is_advertiser": false,
+        "avatar_url": "https://pic1.zhimg.com/v2-f577eb2c527a355af1a4fa5da0972bdd_l.jpg?source=c8b7c179",
+        "url": "http://www.zhihu.com/api/v4/people/d3c29a1e20540ddc43fe3056ebf984bb",
+        "type": "people",
+        "badge": [],
+        "id": "d3c29a1e20540ddc43fe3056ebf984bb",
+        "is_org": false
+      },
+      "url": "http://www.zhihu.com/api/v4/answers/2046911757684306204",
+      "navigator_vote": false,
+      "question": {
+        "question_type": "normal",
+        "created": 1577795371,
+        "url": "http://www.zhihu.com/api/v4/questions/364016259",
+        "title": "如何理解索罗斯的交易策略？",
+        "type": "question",
+        "id": "364016259",
+        "updated_time": 1577795371
+      },
+      "updated_time": 1780801792,
+      "extras": "",
+      "same_video_answers": [],
+      "content_need_truncated": true,
+      "answer_type": "normal",
+      "is_copyable": true,
+      "type": "answer",
+      "thumbnail": ""
+    },
+    {
+      "force_login_when_click_read_more": false,
+      "endorsements": [
+        {
+          "action_url": "https://www.zhihu.com/people/11bebb932b58bb2926be727d32899980",
+          "elements": [
+            {
+              "image_key": "zhicon_icon_24_crab_fill",
+              "image_color": {
+                "alpha": 1.0,
+                "group": "GBL07A"
+              },
+              "height": 16,
+              "width": 16,
+              "type": "IMAGE"
+            },
+            {
+              "font_size": 13,
+              "max_line": 1,
+              "content": "谢邀 @萌娃夸夸君",
+              "is_bold": true,
+              "font_color": {
+                "alpha": 1.0,
+                "group": "GBL07A"
+              },
+              "type": "TEXT"
+            }
+          ],
+          "sub_elements": [],
+          "sub_elements_type": "DESCRIPTION",
+          "background_color": {
+            "alpha": 0.1,
+            "group": "GBL01A"
+          }
+        }
+      ],
+      "created_time": 1780619499,
+      "is_navigator": false,
+      "biz_ext": {
+        "creation_relationship": {}
+      },
+      "id": "2046147164150276360",
+      "vote_next_step": "vote",
+      "reaction": {
+        "statistics": {
+          "like_count": 0,
+          "favorites": 17
+        },
+        "relation": {
+          "faved": false,
+          "liked": false
+        }
+      },
+      "is_collapsed": false,
+      "author": {
+        "avatar_url_template": "https://pic1.zhimg.com/v2-f577eb2c527a355af1a4fa5da0972bdd.jpg?source=c8b7c179",
+        "badge_v2": {
+          "icon": "",
+          "detail_badges": [],
+          "night_icon": "",
+          "merged_badges": [],
+          "title": ""
+        },
+        "name": "明珠是只猪",
+        "headline": "前大学老师，职业股民",
+        "gender": 1,
+        "user_type": "people",
+        "url_token": "liu-bei-14-54",
+        "is_advertiser": false,
+        "avatar_url": "https://pic1.zhimg.com/v2-f577eb2c527a355af1a4fa5da0972bdd_l.jpg?source=c8b7c179",
+        "url": "http://www.zhihu.com/api/v4/people/d3c29a1e20540ddc43fe3056ebf984bb",
+        "type": "people",
+        "badge": [],
+        "id": "d3c29a1e20540ddc43fe3056ebf984bb",
+        "is_org": false
+      },
+      "url": "http://www.zhihu.com/api/v4/answers/2046147164150276360",
+      "navigator_vote": false,
+      "question": {
+        "question_type": "normal",
+        "created": 1730776388,
+        "url": "http://www.zhihu.com/api/v4/questions/3195969657",
+        "title": "为什么很多人不懂股票还在炒股？",
+        "type": "question",
+        "id": "3195969657",
+        "updated_time": 1730776388
+      },
+      "updated_time": 1780619499,
+      "extras": "",
+      "same_video_answers": [],
+      "content_need_truncated": true,
+      "answer_type": "normal",
+      "is_copyable": true,
+      "type": "answer",
+      "thumbnail": ""
+    },
+    {
+      "force_login_when_click_read_more": false,
+      "created_time": 1780386329,
+      "is_navigator": false,
+      "biz_ext": {
+        "creation_relationship": {}
+      },
+      "id": "2045169176671695060",
+      "vote_next_step": "vote",
+      "reaction": {
+        "statistics": {
+          "like_count": 0,
+          "favorites": 10
+        },
+        "relation": {
+          "faved": false,
+          "liked": false
+        }
+      },
+      "is_collapsed": false,
+      "author": {
+        "avatar_url_template": "https://picx.zhimg.com/v2-f577eb2c527a355af1a4fa5da0972bdd.jpg?source=c8b7c179",
+        "badge_v2": {
+          "icon": "",
+          "detail_badges": [],
+          "night_icon": "",
+          "merged_badges": [],
+          "title": ""
+        },
+        "name": "明珠是只猪",
+        "headline": "前大学老师，职业股民",
+        "gender": 1,
+        "user_type": "people",
+        "url_token": "liu-bei-14-54",
+        "is_advertiser": false,
+        "avatar_url": "https://pica.zhimg.com/v2-f577eb2c527a355af1a4fa5da0972bdd_l.jpg?source=c8b7c179",
+        "url": "http://www.zhihu.com/api/v4/people/d3c29a1e20540ddc43fe3056ebf984bb",
+        "type": "people",
+        "badge": [],
+        "id": "d3c29a1e20540ddc43fe3056ebf984bb",
+        "is_org": false
+      },
+      "url": "http://www.zhihu.com/api/v4/answers/2045169176671695060",
+      "navigator_vote": false,
+      "question": {
+        "question_type": "normal",
+        "created": 1733199908,
+        "url": "http://www.zhihu.com/api/v4/questions/5819442599",
+        "title": "A股和美股最大的区别是什么？",
+        "type": "question",
+        "id": "5819442599",
+        "updated_time": 1733199908
+      },
+      "updated_time": 1780386329,
+      "extras": "",
+      "same_video_answers": [],
+      "content_need_truncated": true,
+      "answer_type": "normal",
+      "is_copyable": true,
+      "type": "answer",
+      "thumbnail": ""
+    }
+  ],
+  "need_force_login": false
+}
