@@ -23,3 +23,7 @@ investment.db events表新增source_file列。软链接导出陷阱：桌面xlsx
 e89a23eb8584（PC恢复提醒）无实质内容，用户已确认。
 §
 【作业指导书体系已启用】不再靠L1记规则。每个模块的操作流程都在~/external_memory/作业指导书/下的对应md文件里。启动任务时先去读对应指导书。模块清单：归档/日报/监控/三层分析/数据库维护
+§
+【铁律·数据库路径固化】investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db（即 /home/fw/.hermes/external_memory/investment.clean.db）。任何时候读数据库events表、查P值、查事件链，直接用这个路径。不准再find搜、不准再猜、不准再用session_search确认。这是唯一的真相来源库。
+§
+【数据库断点化 2026-06-20】彻底抛弃events文件维度做断点核对。监控流程的「抓取起点」直接从数据库events表取MAX(created_at)。脚本 ~/.hermes/scripts/events_db_checkpoint.py 实现三件事：①最新3条入库+近10天线图（默认）②按资产查看各asset最新入库时间（--by-asset）③校验某个时间之后有无新数据（--before "时间"），用在写库后自动验证。每个资产last入库可见，断档立刻发现。
