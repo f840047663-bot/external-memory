@@ -12,8 +12,6 @@ investment.db events表新增source_file列。软链接导出陷阱：桌面xlsx
 §
 【2027危机拦截铁律 2026-06-12】用户要求：任何时候他说"加仓恒科/有色/稀金"，必须立即提醒"2027金融危机雷还没爆，不要搞这些东西"。这是硬拦截，除非他主动说"我不管2027危机，我就是要加"。此规则写入所有相关文件。
 §
-我的L1只存两样：①当前任务（todo列表锁定当前一件事）②作业指导书路径。其他所有规则/流程/框架从L1清出，放到对应模块的作业指导书（md文档）或技能里。接任务流程：判断属于哪个模块→读对应作业指导书→执行。不靠脑子记规则。2027危机拦截和邮件配置这2条仍放在L1（是硬拦截不能忘）。
-§
 【2026-06-14 技能更新3项】：①subagent-dispatch-rules增加「督工模式」：子agent直接跑脚本不改代码，如实报告；增加「静默吞错误」bug模式排查。②monitoring-pipeline增加cdp-browser-reader.py参数失配陷阱（--url/--scroll不存在，2>/dev/null吞报错）。③local-chrome-cdp-bridge增加cdp-browser-reader.py实际参数说明章节。
 §
 【2026-06-15 用户反馈】cron输出"太简略"——只抓主线名，搞不懂发生了啥事。已补master-routing §十四Cron输出质量标准。看板有事件数据但列宽截断，视觉不友好。
@@ -22,8 +20,8 @@ investment.db events表新增source_file列。软链接导出陷阱：桌面xlsx
 
 e89a23eb8584（PC恢复提醒）无实质内容，用户已确认。
 §
-【作业指导书体系已启用】不再靠L1记规则。每个模块的操作流程都在~/external_memory/作业指导书/下的对应md文件里。启动任务时先去读对应指导书。模块清单：归档/日报/监控/三层分析/数据库维护
-§
 【铁律·数据库路径固化】investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db（即 /home/fw/.hermes/external_memory/investment.clean.db）。任何时候读数据库events表、查P值、查事件链，直接用这个路径。不准再find搜、不准再猜、不准再用session_search确认。这是唯一的真相来源库。
 §
 【数据库断点化 2026-06-20】彻底抛弃events文件维度做断点核对。监控流程的「抓取起点」直接从数据库events表取MAX(created_at)。脚本 ~/.hermes/scripts/events_db_checkpoint.py 实现三件事：①最新3条入库+近10天线图（默认）②按资产查看各asset最新入库时间（--by-asset）③校验某个时间之后有无新数据（--before "时间"），用在写库后自动验证。每个资产last入库可见，断档立刻发现。
+§
+【2026-06-20 达利欧AI泡沫警告】达利欧指出AI三大泡沫特征（估值高企/企业使用率不足20%/账面财富远超现金流），与美债30Y>5.19%+地缘动荡并列为合成风暴。警示2026-2028年动荡期。已归档：AI虚P-2pp/芯片虚P-1pp/恒科虚P-1pp。
