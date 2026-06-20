@@ -22,6 +22,6 @@ e89a23eb8584（PC恢复提醒）无实质内容，用户已确认。
 §
 【铁律·数据库路径固化】investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db（即 /home/fw/.hermes/external_memory/investment.clean.db）。任何时候读数据库events表、查P值、查事件链，直接用这个路径。不准再find搜、不准再猜、不准再用session_search确认。这是唯一的真相来源库。
 §
-【数据库断点化 2026-06-20】彻底抛弃events文件维度做断点核对。监控流程的「抓取起点」直接从数据库events表取MAX(created_at)。脚本 ~/.hermes/scripts/events_db_checkpoint.py 实现三件事：①最新3条入库+近10天线图（默认）②按资产查看各asset最新入库时间（--by-asset）③校验某个时间之后有无新数据（--before "时间"），用在写库后自动验证。每个资产last入库可见，断档立刻发现。
+【数据库断点化v4 2026-06-20】每个博主独立维护 last_db_id。断点=该博主最后一次入库的数据库id，不是统一时间。入库时comment列前缀【信源:博主名】。更新工具：events_db_checkpoint.py --update-blogger "博主名:数据库id"。按博主隔离，失败/中断只影响一个博主。
 §
 【2026-06-20 达利欧AI泡沫警告】达利欧指出AI三大泡沫特征（估值高企/企业使用率不足20%/账面财富远超现金流），与美债30Y>5.19%+地缘动荡并列为合成风暴。警示2026-2028年动荡期。已归档：AI虚P-2pp/芯片虚P-1pp/恒科虚P-1pp。
