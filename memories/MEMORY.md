@@ -12,7 +12,7 @@ investment.db events表新增source_file列。软链接导出陷阱：桌面xlsx
 §
 【2027危机拦截铁律 2026-06-12】用户要求：任何时候他说"加仓恒科/有色/稀金"，必须立即提醒"2027金融危机雷还没爆，不要搞这些东西"。这是硬拦截，除非他主动说"我不管2027危机，我就是要加"。此规则写入所有相关文件。
 §
-【2026-06-14 技能更新3项】：①subagent-dispatch-rules增加「督工模式」：子agent直接跑脚本不改代码，如实报告；增加「静默吞错误」bug模式排查。②monitoring-pipeline增加cdp-browser-reader.py参数失配陷阱（--url/--scroll不存在，2>/dev/null吞报错）。③local-chrome-cdp-bridge增加cdp-browser-reader.py实际参数说明章节。
+铁律：长任务每3-5分钟必须给用户一次进度汇报，不允许沉默。子agent跑完了不是结束了——必须亲自回复用户。用户已经催了就先回复现状再继续干活。
 §
 【2026-06-15 用户反馈】cron输出"太简略"——只抓主线名，搞不懂发生了啥事。已补master-routing §十四Cron输出质量标准。看板有事件数据但列宽截断，视觉不友好。
 
@@ -25,5 +25,3 @@ e89a23eb8584（PC恢复提醒）无实质内容，用户已确认。
 【数据库断点化v4 2026-06-20】每个博主独立维护 last_db_id。断点=该博主最后一次入库的数据库id，不是统一时间。入库时comment列前缀【信源:博主名】。更新工具：events_db_checkpoint.py --update-blogger "博主名:数据库id"。按博主隔离，失败/中断只影响一个博主。
 §
 【2026-06-20 达利欧AI泡沫警告】达利欧指出AI三大泡沫特征（估值高企/企业使用率不足20%/账面财富远超现金流），与美债30Y>5.19%+地缘动荡并列为合成风暴。警示2026-2028年动荡期。已归档：AI虚P-2pp/芯片虚P-1pp/恒科虚P-1pp。
-§
-scrape_all_platforms.py博主列表必须从INDEX.md（~/.hermes/external_memory/thinkers/INDEX.md）自动读取，不准硬编码。INDEX.md里sec_uid有反引号`包裹，B站mid有括号注释，读代码时需strip清理。黄士铨看世界在INDEX.md里但原代码硬编码漏了。参考monitoring-pipeline skill/references/index-md-blogger-source-20260620.md
