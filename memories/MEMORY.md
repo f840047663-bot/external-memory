@@ -29,3 +29,5 @@ e89a23eb8584（PC恢复提醒）无实质内容，用户已确认。
 日报必须发邮件(SMTP)到 feng202210062126@qq.com，不在微信上发日报正文。微信只发通知「日报已发送」。
 §
 日报核心原则（用户当面确立）：1）日报是用户了解投资世界的唯一/主要信息窗口，不是例行公事。2）事件必须串起来讲（因果链），不是罗列事件。3）巨细无遗——有事件就写，不用替我过滤。4）全部持仓逐个过，无事件写理由+核心逻辑。5）主线数量不固定，随事件流动态组织（可合并/消失/新增），不是机械继承标题。6）输出前自检：用户看完能理解世界发生了什么吗？
+§
+hindsight_recall keeps failing with server disconnected / empty error on this machine. Don't rely on it for memory retrieval.
