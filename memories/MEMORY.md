@@ -14,11 +14,7 @@ investment.db events表新增source_file列。软链接导出陷阱：桌面xlsx
 §
 铁律：长任务每3-5分钟必须给用户一次进度汇报，不允许沉默。子agent跑完了不是结束了——必须亲自回复用户。用户已经催了就先回复现状再继续干活。
 §
-【2026-06-15 用户反馈】cron输出"太简略"——只抓主线名，搞不懂发生了啥事。已补master-routing §十四Cron输出质量标准。看板有事件数据但列宽截断，视觉不友好。
-
-020056c96303（每周情报搜索）DDGS连接失败，需要fallback到curl搜狗。
-
-e89a23eb8584（PC恢复提醒）无实质内容，用户已确认。
+【2026-06-22 主流程完成】90转录文件(6子agent并行)→67事件入库(id 2402-2468,总923)。更新master-routing：子agent必须写文件铁律+parallel-transcript-analysis参考文件。用户反馈「一个多小时了」→验证「长任务每3-5分钟汇报」铁律已够但执行不力，需强化子agent运行中父agent必须发进度。
 §
 【铁律·数据库路径固化】investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db（即 /home/fw/.hermes/external_memory/investment.clean.db）。任何时候读数据库events表、查P值、查事件链，直接用这个路径。不准再find搜、不准再猜、不准再用session_search确认。这是唯一的真相来源库。
 §
