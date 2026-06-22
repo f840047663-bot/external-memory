@@ -1,4 +1,4 @@
-邮件用cronjob create+run触发，系统deliver投递，不准Python SMTP直发（login会Connection closed）。用户反感重复问已配好的授权码。用户不看财报，直接查数据给结论。
+VideoCaptioner容器实际一直可用（端口8501正常）。批量转录用batch_transcribe_all.py后台跑。
 §
 【2026-06-16数据持久化铁律】events文件写完后必须立即写入数据库events表（investment.clean.db）。之前发生的6/10-6/15数据空白的根因是只写文件不写库。三步才算完成：写events文件 → 写数据库 → 回复用户。已固化到master-routing和monitoring-pipeline技能。
 §
