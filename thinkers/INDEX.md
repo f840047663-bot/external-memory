@@ -13,7 +13,6 @@
 | 蒋宇飞商业 | `MS4wLjABAAAACny9yd6GiSgFyyTvE6jt44j0VxBKVVhe69GdklIZIL4` | — | — | ⭐⭐⭐⭐ | 05-20 | 芯片、有色、海外科技 |
 | 宋鸿兵观天下 | `MS4wLjABAAAAzaye_V0qtP4d7m77UywUBRq7xB9CRiLaeGPfg79hLtQ` | `mid:390894226` | — | ⭐⭐⭐⭐⭐ | 05-19 | 黄金、芯片、银行、原油 |
 | 岩松笔记 | `MS4wLjABAAAAKmBn1W1OtE3A2O79hh_R-HIAMHBX8iuTyoQhGMVVqg3nZMcZiJSfJp8qPCUuOnXc` | — | — | ⭐⭐⭐⭐ | 05-19 | 有色、稀有金属、黄金 |
-| 无知半人 | 🔍待补充sec_uid | — | — | ⭐⭐⭐ | 05-22 | 银行、养殖 |
 | 拿幸·AI启示录 | `MS4wLjABAAAAYiyWLrWJmy2JDr3EaQYGNOD9z2ZTCYIOgIXnckGDZYZmyAIMpnZtU99Wr6WpXdbN` | — | — | ⭐⭐⭐ | 05-22 | AI、芯片（待分析） |
 | 生猪贸易~芳姐(山东) | `MS4wLjABAAAA84Px8FIb4E4UdQowhWdw_ZhHjXLQA_TeUJv7TygncxMxO-NGSfd5G--s0L66E36w` | — | — | ⭐⭐⭐ | 05-22 | 养殖（猪周期） |
 | 猪猪女王 | `MS4wLjABAAAA9akoFc9rg5UbgoNGRED9mf4NI1X0doHdmglkhrN-SWo` | — | — | ⭐⭐⭐ | 05-22 | 养殖（猪周期） |
@@ -26,11 +25,10 @@
 | 明珠是只猪（明珠十主） | — | — | `people/liu-bei-14-54` | ⭐⭐⭐ | 05-19 | 通用方法论 |
 | 环中星鉴 | — | — | `people/lrc-8` | ⭐⭐⭐ | 05-21 | 黄金（独立投资人，INTJ） |
 | 闻号说经济 | — | — | `people/wen-hao-roy` | ⭐⭐ | 05-21 | 宏微观（16年全球化企业+金融风控） |
-| 达利欧 | 🔍待补充sec_uid | — | — | ⭐⭐⭐⭐⭐ | 06-20 | 宏观框架、AI泡沫预警、美债利率 |
 | 华夏基金官方账号 | — | `mid:443551651` | — | ⭐⭐⭐⭐ | 05-22 | 芯片、黄金 |
 | 芭蕉凉气多 | — | `video/BV16HoyBKEa8`（水果健康频道） | — | ⭐⭐ | 05-15 | 健康（不碰投资） |
 
-> **标记说明：** 🔍待补充 = 等CDP连上或你提供后补。`—` = 该平台无账号。
+> **标记说明：** `—` = 该平台无账号。
 > **格式：** 抖音列写`MS4w...`(sec_uid)，B站列写`mid:数字`，知乎列写`people/xxx`
 > 监控脚本自动识别这三列的格式，不用额外配置。
 
@@ -80,7 +78,7 @@
 
 ## 🛠️ 排错档案
 
-> 踩过坑的记录。​出问题先查这里，再查 `00-网站内容抓取总纲.md` 第七节（详细版）。
+> 踩过坑的记录。出问题先查这里，再查 `00-网站内容抓取总纲.md` 第七节（详细版）。
 
 ### 抖音API（2026-05-27）
 1. **count不能小于30** → 某些账号（但斌）用count=5返回0条，误判"私密"
