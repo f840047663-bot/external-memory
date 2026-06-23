@@ -9,7 +9,7 @@
 |:----|:----|:----|:----|:----:|:----:|:---------|
 | 付鹏的财经世界 | `MS4wLjABAAAAy5ym9wTQRRPyS8wY1UA4SXkgUkw7gZyg1Pkws_ppDtO2z0uOpWjbUWassaacpe8C` | `space.bilibili.com/3546832705685582`（财经大咖录·常驻） | — | ⭐⭐⭐⭐⭐ | 05-19 | 芯片、恒生科技、黄金、债券 |
 | 美刀哥 | `MS4wLjABAAAAefSAZCHkdTJNjPf0Pj0Irxc1dNemfQeKQqY5iOiZbjA` | — | — | ⭐⭐⭐ | 06-23 | 价值投资（巴菲特/格雷厄姆/复利） |
-| 黄士铨看世界 |
+| 黄士铨看世界 | `MS4wLjABAAAARGJtMMMujtgxbnl18CQHeUiTdopr5C--P4I3t80KvumwcZw2di4vfeteEnBhYI-x` | — | — | ⭐⭐⭐ | 06-23 | 宏观、A股策略（消费/地缘/特朗普） |
 | 蒋宇飞商业 | `MS4wLjABAAAACny9yd6GiSgFyyTvE6jt44j0VxBKVVhe69GdklIZIL4` | — | — | ⭐⭐⭐⭐ | 05-20 | 芯片、有色、海外科技 |
 | 宋鸿兵观天下 | `MS4wLjABAAAAzaye_V0qtP4d7m77UywUBRq7xB9CRiLaeGPfg79hLtQ` | `mid:390894226` | — | ⭐⭐⭐⭐⭐ | 05-19 | 黄金、芯片、银行、原油 |
 | 岩松笔记 | `MS4wLjABAAAAKmBn1W1OtE3A2O79hh_R-HIAMHBX8iuTyoQhGMVVqg3nZMcZiJSfJp8qPCUuOnXc` | — | — | ⭐⭐⭐⭐ | 05-19 | 有色、稀有金属、黄金 |
@@ -26,6 +26,7 @@
 | 明珠是只猪（明珠十主） | — | — | `people/liu-bei-14-54` | ⭐⭐⭐ | 05-19 | 通用方法论 |
 | 环中星鉴 | — | — | `people/lrc-8` | ⭐⭐⭐ | 05-21 | 黄金（独立投资人，INTJ） |
 | 闻号说经济 | — | — | `people/wen-hao-roy` | ⭐⭐ | 05-21 | 宏微观（16年全球化企业+金融风控） |
+| 达利欧 | 🔍待补充sec_uid | — | — | ⭐⭐⭐⭐⭐ | 06-20 | 宏观框架、AI泡沫预警、美债利率 |
 | 华夏基金官方账号 | — | `mid:443551651` | — | ⭐⭐⭐⭐ | 05-22 | 芯片、黄金 |
 | 芭蕉凉气多 | — | `video/BV16HoyBKEa8`（水果健康频道） | — | ⭐⭐ | 05-15 | 健康（不碰投资） |
 
