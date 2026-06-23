@@ -9,6 +9,7 @@
 |:----|:----|:----|:----|:----:|:----:|:---------|
 | 付鹏的财经世界 | `MS4wLjABAAAAy5ym9wTQRRPyS8wY1UA4SXkgUkw7gZyg1Pkws_ppDtO2z0uOpWjbUWassaacpe8C` | `space.bilibili.com/3546832705685582`（财经大咖录·常驻） | — | ⭐⭐⭐⭐⭐ | 05-19 | 芯片、恒生科技、黄金、债券 |
 | 美刀哥 | `MS4wLjABAAAAefSAZCHkdTJNjPf0Pj0Irxc1dNemfQeKQqY5iOiZbjA` | — | — | ⭐⭐⭐ | 06-23 | 价值投资（巴菲特/格雷厄姆/复利） |
+| 无知半人 | `MS4wLjABAAAAPhf6GbqWLUHzzlkqfDjlUVwVNWjlHG0w8YrYSspL48s` | — | — | ⭐⭐⭐⭐ | 06-23 | 宏观/财经/社会观察 |
 | 黄士铨看世界 | `MS4wLjABAAAARGJtMMMujtgxbnl18CQHeUiTdopr5C--P4I3t80KvumwcZw2di4vfeteEnBhYI-x` | — | — | ⭐⭐⭐ | 06-23 | 宏观、A股策略（消费/地缘/特朗普） |
 | 蒋宇飞商业 | `MS4wLjABAAAACny9yd6GiSgFyyTvE6jt44j0VxBKVVhe69GdklIZIL4` | — | — | ⭐⭐⭐⭐ | 05-20 | 芯片、有色、海外科技 |
 | 宋鸿兵观天下 | `MS4wLjABAAAAzaye_V0qtP4d7m77UywUBRq7xB9CRiLaeGPfg79hLtQ` | `mid:390894226` | — | ⭐⭐⭐⭐⭐ | 05-19 | 黄金、芯片、银行、原油 |
