@@ -27,3 +27,5 @@ investment.db events表新增source_file列。软链接导出陷阱：桌面xlsx
 日报核心原则（用户当面确立）：1）日报是用户了解投资世界的唯一/主要信息窗口，不是例行公事。2）事件必须串起来讲（因果链），不是罗列事件。3）巨细无遗——有事件就写，不用替我过滤。4）全部持仓逐个过，无事件写理由+核心逻辑。5）主线数量不固定，随事件流动态组织（可合并/消失/新增），不是机械继承标题。6）输出前自检：用户看完能理解世界发生了什么吗？
 §
 hindsight_recall keeps failing with server disconnected / empty error on this machine. Don't rely on it for memory retrieval.
+§
+统一买入判定监控已建立：交易日15:30运行buy_signal_check.py，no_agent模式。所有标的买入条件集中在一个脚本里，条件到了才通知用户。已暂停旧零散监控9个：MLCC+堆叠联合监控、堆叠+机器人每日监控、芯片ETF跌3%报警、原油跌破80提醒、原油跌破85HALO提醒、原油价格监控、机器人定投强推、高股息监控、策略提醒。
