@@ -16,7 +16,7 @@ investment.db events表新增source_file列。软链接导出陷阱：桌面xlsx
 §
 【2026-06-22 主流程完成】90转录文件(6子agent并行)→67事件入库(id 2402-2468,总923)。更新master-routing：子agent必须写文件铁律+parallel-transcript-analysis参考文件。用户反馈「一个多小时了」→验证「长任务每3-5分钟汇报」铁律已够但执行不力，需强化子agent运行中父agent必须发进度。
 §
-【铁律·数据库路径固化】investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db（即 /home/fw/.hermes/external_memory/investment.clean.db）。任何时候读数据库events表、查P值、查事件链，直接用这个路径。不准再find搜、不准再猜、不准再用session_search确认。这是唯一的真相来源库。
+investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db。写数据库相关操作先加载 skill:investment-db-manager（含表结构+读写函数+断点）。
 §
 【数据库断点化v4 2026-06-20】每个博主独立维护 last_db_id。断点=该博主最后一次入库的数据库id，不是统一时间。入库时comment列前缀【信源:博主名】。更新工具：events_db_checkpoint.py --update-blogger "博主名:数据库id"。按博主隔离，失败/中断只影响一个博主。
 §
