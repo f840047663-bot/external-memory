@@ -9,6 +9,7 @@
 |:----|:----|:----|:----|:----:|:----:|:---------|
 | 付鹏的财经世界 | `MS4wLjABAAAAy5ym9wTQRRPyS8wY1UA4SXkgUkw7gZyg1Pkws_ppDtO2z0uOpWjbUWassaacpe8C` | `space.bilibili.com/3546832705685582`（财经大咖录·常驻） | — | ⭐⭐⭐⭐⭐ | 05-19 | 芯片、恒生科技、黄金、债券 |
 | **水又三人禾** | — | — | `people/10-64-17-85-40` | ⭐⭐⭐⭐⭐ | 06-23 | 宏观（利率/美元/黄金/流动性）、AI |
+| **熊哥有干货** | `MS4wLjABAAAA9v5axcaVocajI17PoO8sgzPn4ojZD4vbiGk2bh2kFVsljdcndG6us6Xcxl5y32ff` | — | — | ⭐⭐⭐⭐⭐ | 06-24 | 黄金（待分析） |
 | 蒋宇飞商业 | `MS4wLjABAAAACny9yd6GiSgFyyTvE6jt44j0VxBKVVhe69GdklIZIL4` | — | — | ⭐⭐⭐⭐ | 05-20 | 芯片、有色、海外科技 |
 | 宋鸿兵观天下 | `MS4wLjABAAAAzaye_V0qtP4d7m77UywUBRq7xB9CRiLaeGPfg79hLtQ` | `mid:390894226` | — | ⭐⭐⭐⭐ | 05-19 | 黄金、芯片、银行、原油 |
 | 岩松笔记 | `MS4wLjABAAAAKmBn1W1OtE3A2O79hh_R-HIAMHBX8iuTyoQhGMVVqg3nZMcZiJSfJp8qPCUuOnXc` | — | — | ⭐⭐⭐⭐ | 05-19 | 有色、稀有金属、黄金 |
@@ -16,6 +17,9 @@
 | 古都闲云 | — | — | `people/gududatong` | ⭐⭐⭐⭐ | 05-19 | 银行、芯片、债券 |
 | 美刀哥 | `MS4wLjABAAAAefSAZCHkdTJNjPf0Pj0Irxc1dNemfQeKQqY5iOiZbjA` | — | — | ⭐⭐⭐⭐ | 06-23 | 宏观、价值投资 |
 | 黄士铨看世界 | `MS4wLjABAAAARGJtMMMujtgxbnl18CQHeUiTdopr5C--P4I3t80KvumwcZw2di4vfeteEnBhYI-x` | — | — | ⭐⭐⭐⭐ | 06-23 | 宏观、A股策略、美债利率 |
+| 晨钟暮鼓自由人生 | `MS4wLjABAAAAjZoWTVCIMTmzJQ79dXztgMTeh6mwtZmgiv1IjCpDP4U` | — | — | ⭐⭐⭐⭐ | 06-24 | 价值投资（待分析） |
+| 大鹅确定性 | `MS4wLjABAAAAcsGBh30eNam3wWPkv9_1DPjt4zq16py2Jy-1yeI7wxHNXNRwtk2xv5KKwYrYlz0l` | — | — | ⭐⭐⭐⭐ | 06-24 | 待分析 |
+| 资本像素 | `MS4wLjABAAAAp8rr06HOQh8IVCWltMkqi8BnkRhnHw84gUB6pMorSLyWK9g9weksi9b8mSWg816d` | — | — | ⭐⭐⭐⭐ | 06-24 | 宏观/商业分析（待分析） |
 | 华夏基金官方账号 | — | `mid:443551651` | — | ⭐⭐⭐⭐ | 05-22 | 芯片、黄金 |
 | 拿幸·AI启示录 | `MS4wLjABAAAAYiyWLrWJmy2JDr3EaQYGNOD9z2ZTCYIOgIXnckGDZYZmyAIMpnZtU99Wr6WpXdbN` | — | — | ⭐⭐⭐ | 05-22 | AI、芯片（待分析） |
 | 生猪贸易~芳姐(山东) | `MS4wLjABAAAA84Px8FIb4E4UdQowhWdw_ZhHjXLQA_TeUJv7TygncxMxO-NGSfd5G--s0L66E36w` | — | — | ⭐⭐⭐ | 05-22 | 养殖（猪周期） |
