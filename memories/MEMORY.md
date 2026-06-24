@@ -28,4 +28,4 @@ investment.db events表新增source_file列。软链接导出陷阱：桌面xlsx
 §
 hindsight_recall keeps failing with server disconnected / empty error on this machine. Don't rely on it for memory retrieval.
 §
-统一买入判定监控已建立：交易日15:30运行buy_signal_check.py，no_agent模式。所有标的买入条件集中在一个脚本里，条件到了才通知用户。已暂停旧零散监控9个：MLCC+堆叠联合监控、堆叠+机器人每日监控、芯片ETF跌3%报警、原油跌破80提醒、原油跌破85HALO提醒、原油价格监控、机器人定投强推、高股息监控、策略提醒。
+统一买入判定监控已建立：交易日15:30运行unified_buy_judge.py（替换旧buy_signal_check.py），no_agent模式。工作模式：有标的触发条件→完整报告带前因后果；没触发但4天没说话→自动串讲事件链；平时安静不说话。已暂停9个旧零散监控。个股估值数据来源：腾讯ifzq API（PE/PB/52周区间）已验证可靠，东方财富push2已被墙。
