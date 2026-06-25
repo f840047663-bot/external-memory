@@ -28,4 +28,4 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 【2026-06-25 断点关闭括号精确匹配】get_blogger_last_db_id()改LIKE'%【信源:博主名】%'（闭括号优先），历史格式LIKE'%【信源:博主名%'兜底。get_all_blogger_breakpoints()用re.findall提取名称而非substr。comment格式强制【信源:博主名】【视频ID:xxx】【归档时间:...】。写入时必须用checkpoint官方博主名，不能自创变体。
 §
-抖音CDP抓取坑点（2026-06-25验证）：用Python websocket直接Page.navigate到博主/user/{sec_uid}页面，等35秒后取body.innerText，返回"用户不存在"或只有页脚菜单（精选/推荐/搜索等），无视频列表内容。已验证付鹏/宋鸿兵/但斌/芳姐都这样。需要换策略：要么用户手动打开博主主页后取内容（不AI导航），要么用抖音搜索页搜博主名再点进主页。直接导航/user/{sec_uid}不管用。
+【2026-06-26 CDP抓取更新】CDP直接导航到/user/{sec_uid} + 等60秒渲染 = 对于大V（付鹏/但斌）正常工作，body>3000字含完整视频列表。对于中等博主可能"服务异常"或空body。必须一个接一个抓（不准并行）。sec_uid从INDEX.md读后先验证——body<1000字可能是sec_uid过期。
