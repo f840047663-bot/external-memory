@@ -24,7 +24,7 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 【2026-06-25 监控抓取铁律】平台封锁了可以重试、换方法、降级（CDP重启/Playwright注入cookie/复用已有标签页），不是"以后都不跑了"。一次失败不得定性为"全封锁/唯一工作流"。monitoring-pipeline和master-routing §四均已更新此铁律。
 §
-统一买入判定监控已建立：交易日15:30运行unified_buy_judge.py（替换旧buy_signal_check.py），no_agent模式。工作模式：有标的触发条件→完整报告带前因后果；没触发但4天没说话→自动串讲事件链；平时安静不说话。已暂停9个旧零散监控。个股估值数据来源：腾讯ifzq API（PE/PB/52周区间）已验证可靠，东方财富push2已被墙。
+远程唤醒Wayland黑屏终极方案：pkill -9 gnome-shell（杀gnome-shell让gdm自动重拉显示登录界面），等5s。无效则 loginctl unlock-sessions && chvt 1 && chvt 2。再不行长按电源10秒强制重启。
 §
 【2026-06-25 断点关闭括号精确匹配】get_blogger_last_db_id()改LIKE'%【信源:博主名】%'（闭括号优先），历史格式LIKE'%【信源:博主名%'兜底。get_all_blogger_breakpoints()用re.findall提取名称而非substr。comment格式强制【信源:博主名】【视频ID:xxx】【归档时间:...】。写入时必须用checkpoint官方博主名，不能自创变体。
 §
