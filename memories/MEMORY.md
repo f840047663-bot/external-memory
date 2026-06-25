@@ -14,8 +14,6 @@ investment.db events表新增source_file列。软链接导出陷阱：桌面xlsx
 §
 铁律：长任务每3-5分钟必须给用户一次进度汇报，不允许沉默。子agent跑完了不是结束了——必须亲自回复用户。用户已经催了就先回复现状再继续干活。
 §
-【2026-06-25 三大平台封锁确认】抖音/B站/知乎从服务器IP全部封锁（API黑洞路由/CDP session断裂），非临时故障。监控管道已死，唯一工作流=用户微信转发→手动归档。已更新monitoring-pipeline和master-routing和local-chrome-cdp-bridge三个技能记录此现实。用户说跑监控时先问有无内容，不闷头试API/CDP。
-§
 investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db。写数据库相关操作先加载 skill:investment-db-manager（含表结构+读写函数+断点）。
 §
 【2026-06-20 达利欧AI泡沫警告】达利欧指出AI三大泡沫特征（估值高企/企业使用率不足20%/账面财富远超现金流），与美债30Y>5.19%+地缘动荡并列为合成风暴。警示2026-2028年动荡期。已归档：AI虚P-2pp/芯片虚P-1pp/恒科虚P-1pp。
