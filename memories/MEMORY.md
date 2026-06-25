@@ -26,6 +26,6 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 日报核心原则（用户当面确立）：1）日报是用户了解投资世界的唯一/主要信息窗口，不是例行公事。2）事件必须串起来讲（因果链），不是罗列事件。3）巨细无遗——有事件就写，不用替我过滤。4）全部持仓逐个过，无事件写理由+核心逻辑。5）主线数量不固定，随事件流动态组织（可合并/消失/新增），不是机械继承标题。6）输出前自检：用户看完能理解世界发生了什么吗？
 §
-hindsight_recall keeps failing with server disconnected / empty error on this machine. Don't rely on it for memory retrieval.
+【关键铁律 2026-06-25】监控处理断点文件（~/桌面/监控处理断点.md）是大好人看的操作面板，不是技术断点。他靠这个一眼判断今天谁被抓了/谁没被抓。归档事件后必须手动更新此文件（加微信归档行+更新日志+更新db状态）。绝对不能删除博主行/清空时间戳/只留活跃博主。另：hindsight_recall在此机器一直server disconnected失效，不依赖。
 §
 统一买入判定监控已建立：交易日15:30运行unified_buy_judge.py（替换旧buy_signal_check.py），no_agent模式。工作模式：有标的触发条件→完整报告带前因后果；没触发但4天没说话→自动串讲事件链；平时安静不说话。已暂停9个旧零散监控。个股估值数据来源：腾讯ifzq API（PE/PB/52周区间）已验证可靠，东方财富push2已被墙。
