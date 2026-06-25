@@ -1,6 +1,6 @@
 VideoCaptioner容器实际一直可用（端口8501正常）。批量转录用batch_transcribe_all.py后台跑。
 §
-【2026-06-16数据持久化铁律】events文件写完后必须立即写入数据库events表（investment.clean.db）。之前发生的6/10-6/15数据空白的根因是只写文件不写库。三步才算完成：写events文件 → 写数据库 → 回复用户。已固化到master-routing和monitoring-pipeline技能。
+数据铁律：写events文件+写数据库两步才算完成。已固化到master-routing。
 §
 用户明确：他说"归档"=启动归档技能event-archive-three-link，按三处联动走（events一事件一文件+narratives提炼多空+看板同步双向引用）。不需要我猜。日常档案类问题找session_search查历史记录，不写L1。
 §
@@ -14,7 +14,7 @@ investment.db events表新增source_file列。软链接导出陷阱：桌面xlsx
 §
 铁律：长任务每3-5分钟必须给用户一次进度汇报，不允许沉默。子agent跑完了不是结束了——必须亲自回复用户。用户已经催了就先回复现状再继续干活。
 §
-【2026-06-22 主流程完成】90转录文件(6子agent并行)→67事件入库(id 2402-2468,总923)。更新master-routing：子agent必须写文件铁律+parallel-transcript-analysis参考文件。用户反馈「一个多小时了」→验证「长任务每3-5分钟汇报」铁律已够但执行不力，需强化子agent运行中父agent必须发进度。
+【2026-06-25 三大平台封锁确认】抖音/B站/知乎从服务器IP全部封锁（API黑洞路由/CDP session断裂），非临时故障。监控管道已死，唯一工作流=用户微信转发→手动归档。已更新monitoring-pipeline和master-routing和local-chrome-cdp-bridge三个技能记录此现实。用户说跑监控时先问有无内容，不闷头试API/CDP。
 §
 investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db。写数据库相关操作先加载 skill:investment-db-manager（含表结构+读写函数+断点）。
 §
