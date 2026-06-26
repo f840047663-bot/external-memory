@@ -29,3 +29,5 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 【2026-06-25 断点关闭括号精确匹配】get_blogger_last_db_id()改LIKE'%【信源:博主名】%'（闭括号优先），历史格式LIKE'%【信源:博主名%'兜底。get_all_blogger_breakpoints()用re.findall提取名称而非substr。comment格式强制【信源:博主名】【视频ID:xxx】【归档时间:...】。写入时必须用checkpoint官方博主名，不能自创变体。
 §
 联动因果叙事分析技能（asset-correlation-map）已重写。核心目的：以任意资产为起点自动铺网，沿联动基线拉相关资产事件输出网状叙事，不孤立讲单资产。每周日11:00 cron（job_id=8b28ccfcb708）自动检查联动格局变化。联动叙事与日报分开，主流程出口会问「出日报还是跑联动」。
+§
+【2026-06-27 用户关机确认】断点偏差不修了，能用就行。INDEX.md 26人 ↔ 桌面断点对齐25人（差水又三人禾在checkpoint.json里有但桌面断点无，不影响）。下次开机说"跑监控"就从断点接着干。下次运行预计7月初。数据库 max_id=2984，停在6/26。关机前已确认所有数据在库里完整。
