@@ -28,4 +28,4 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 【2026-06-25 断点关闭括号精确匹配】get_blogger_last_db_id()改LIKE'%【信源:博主名】%'（闭括号优先），历史格式LIKE'%【信源:博主名%'兜底。get_all_blogger_breakpoints()用re.findall提取名称而非substr。comment格式强制【信源:博主名】【视频ID:xxx】【归档时间:...】。写入时必须用checkpoint官方博主名，不能自创变体。
 §
-【2026-06-26 CDP抓取+AI摘要更新】CDP PUT /json/new?{抖音视频URL} + 等60秒渲染 = body含完整AI章节摘要（已验证付鹏3506字）。所有下载方案全挂（yt-dlp/gallery-dl/scraper/Playwright/curl API），仅CDP直接开视频页可行。关键：不注入cookie、不额外navigate、不attach session。用户主页/user/{sec_uid}同样可用，body>3000字含完整视频列表。必须串行一个接一个抓。
+联动因果叙事分析技能（asset-correlation-map）已重写。核心目的：以任意资产为起点自动铺网，沿联动基线拉相关资产事件输出网状叙事，不孤立讲单资产。每周日11:00 cron（job_id=8b28ccfcb708）自动检查联动格局变化。联动叙事与日报分开，主流程出口会问「出日报还是跑联动」。
