@@ -28,4 +28,4 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 【2026-06-25 断点关闭括号精确匹配】get_blogger_last_db_id()改LIKE'%【信源:博主名】%'（闭括号优先），历史格式LIKE'%【信源:博主名%'兜底。get_all_blogger_breakpoints()用re.findall提取名称而非substr。comment格式强制【信源:博主名】【视频ID:xxx】【归档时间:...】。写入时必须用checkpoint官方博主名，不能自创变体。
 §
-【2026-06-26 CDP抓取更新】CDP直接导航到/user/{sec_uid} + 等60秒渲染 = 对于大V（付鹏/但斌）正常工作，body>3000字含完整视频列表。对于中等博主可能"服务异常"或空body。必须一个接一个抓（不准并行）。sec_uid从INDEX.md读后先验证——body<1000字可能是sec_uid过期。
+【2026-06-26 CDP抓取+AI摘要更新】CDP PUT /json/new?{抖音视频URL} + 等60秒渲染 = body含完整AI章节摘要（已验证付鹏3506字）。所有下载方案全挂（yt-dlp/gallery-dl/scraper/Playwright/curl API），仅CDP直接开视频页可行。关键：不注入cookie、不额外navigate、不attach session。用户主页/user/{sec_uid}同样可用，body>3000字含完整视频列表。必须串行一个接一个抓。
