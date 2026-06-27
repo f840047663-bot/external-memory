@@ -1,0 +1,9 @@
+*.db
+daily_briefs/
+narratives/
+backup_archives/
+*.xlsx
+*.xlsx\ \(*\)/
+transcripts/
+monitor_fetch_output/
+archive/
