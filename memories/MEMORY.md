@@ -21,3 +21,5 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 CDP Chrome获取抖音内容的核心教训：必须在登录状态下打开博主主页→等90秒渲染→DOM查a[href*="/video/"]拿aweme_id（只取19位纯数字）。日志读到body<500字=渲染失败，必须关标签页重新打开刷新，不能原地死等。sw.js不能关（断了CDP）。内存不足时先杀多余的hindsight_api进程。已全部写入douyin-video-content-extraction技能。
 §
 发财兄弟视频进度（2026-06-28）：19条已归档数据库（但有AI摘要的视频只存了我概括的一两句话，不是AI摘要原文——需要后续修正）。已成功下载+转录1条（"金融危机即将重演"3814字）。用户要确认有多少转录有价值。我判断优先级1-6需要转录（全球加息风暴/人民币升值与普通人/黄金大跌/SpaceX上市/厄尔尼诺/如何避开美元困境），其余AI摘要够用。用CDP直接读视频页面body拿AI摘要比下载转录快得多。
+§
+CDP Network抓包法（Network.enable+requestWillBeSent事件）获取抖音音视频分离URL，比performance API更可靠——已验证5/5视频100%成功。脚本入口：python3 ~/.hermes/scripts/douyin_cdp_transcribe.py <aweme_id> 或者 python3 ~/.hermes/scripts/douyin_auto_archive.py <sec_uid> --blogger "姓名"
