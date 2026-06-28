@@ -19,3 +19,9 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 【2026-06-20 达利欧AI泡沫警告】达利欧指出AI三大泡沫特征（估值高企/企业使用率不足20%/账面财富远超现金流），与美债30Y>5.19%+地缘动荡并列为合成风暴。警示2026-2028年动荡期。已归档：AI虚P-2pp/芯片虚P-1pp/恒科虚P-1pp。
 §
 CDP Chrome获取抖音内容的核心教训：必须在登录状态下打开博主主页→等90秒渲染→DOM查a[href*="/video/"]拿aweme_id（只取19位纯数字）。日志读到body<500字=渲染失败，必须关标签页重新打开刷新，不能原地死等。sw.js不能关（断了CDP）。内存不足时先杀多余的hindsight_api进程。已全部写入douyin-video-content-extraction技能。
+§
+CDP Chrome v147+ IPv6绑定陷阱：--remote-debugging-port=9222默认只绑[::1]（IPv6），不绑127.0.0.1（IPv4），导致Hermes browser_navigate工具报404。必须在启动参数加 --remote-debugging-address=0.0.0.0 同时监听IPv4和IPv6。
+
+browser_navigate 404兜底方案（不杀进程不重启）：直接连page-level WebSocket（从curl /json返回的webSocketDebuggerUrl取），绕过browser token缓存问题。步骤：curl /json拿tabs→取第一个非sw.js的tab的ws_url→websocket.create_connection→Runtime.evaluate。注意连接时要设置sslopt={'cert_reqs': ssl.CERT_NONE}避免SSL证书校验。
+
+抖音视频下载路径全部不可用（yt-dlp+curl+CDP fetch全验证失败），URL带时效签名+cookie过期+跨域CORS三重限制。唯一可行方案：CDP读已渲染body全文（即使无AI摘要也有标题+描述+评论）。
