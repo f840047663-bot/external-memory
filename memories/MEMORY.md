@@ -25,3 +25,5 @@ CDP Chrome v147+ IPv6绑定陷阱：--remote-debugging-port=9222默认只绑[::1
 browser_navigate 404兜底方案（不杀进程不重启）：直接连page-level WebSocket（从curl /json返回的webSocketDebuggerUrl取），绕过browser token缓存问题。步骤：curl /json拿tabs→取第一个非sw.js的tab的ws_url→websocket.create_connection→Runtime.evaluate。注意连接时要设置sslopt={'cert_reqs': ssl.CERT_NONE}避免SSL证书校验。
 
 抖音视频下载路径全部不可用（yt-dlp+curl+CDP fetch全验证失败），URL带时效签名+cookie过期+跨域CORS三重限制。唯一可行方案：CDP读已渲染body全文（即使无AI摘要也有标题+描述+评论）。
+§
+发财兄弟视频进度（2026-06-28）：19条已归档数据库（但有AI摘要的视频只存了我概括的一两句话，不是AI摘要原文——需要后续修正）。已成功下载+转录1条（"金融危机即将重演"3814字）。用户要确认有多少转录有价值。我判断优先级1-6需要转录（全球加息风暴/人民币升值与普通人/黄金大跌/SpaceX上市/厄尔尼诺/如何避开美元困境），其余AI摘要够用。用CDP直接读视频页面body拿AI摘要比下载转录快得多。
