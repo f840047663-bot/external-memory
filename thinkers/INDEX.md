@@ -7,6 +7,7 @@
 
 | 博主 | 抖音 | B站 | 知乎 | 权重 | 建档 | 互锁仓位 |
 |:----|:----|:----|:----|:----:|:----:|:---------|
+| 发财兄弟 | `MS4wLjABAAAAGLq8XRQixvTg8RjJK1YUSmP4Jl_Ln3eoNCx4gCCAAwr2WHUEHJSV83pfs8siuoqy` | — | — | ⭐⭐⭐⭐ | 06-29 | 宏观/汇率/黄金/个人理财 |
 | 付鹏的财经世界 | `MS4wLjABAAAAy5ym9wTQRRPyS8wY1UA4SXkgUkw7gZyg1Pkws_ppDtO2z0uOpWjbUWassaacpe8C` | `space.bilibili.com/3546832705685582`（财经大咖录·常驻） | — | ⭐⭐⭐⭐⭐ | 05-19 | 芯片、恒生科技、黄金、债券 |
 | **水又三人禾** | — | — | `people/10-64-17-85-40` | ⭐⭐⭐⭐⭐ | 06-23 | 宏观（利率/美元/黄金/流动性）、AI |
 | **熊哥有干货** | `MS4wLjABAAAA9v5axcaVocajI17PoO8sgzPn4ojZD4vbiGk2bh2kFVsljdcndG6us6Xcxl5y32ff` | — | — | ⭐⭐⭐⭐⭐ | 06-24 | 黄金（待分析） |
