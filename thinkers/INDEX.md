@@ -13,7 +13,8 @@
 | **熊哥有干货** | `MS4wLjABAAAA9v5axcaVocajI17PoO8sgzPn4ojZD4vbiGk2bh2kFVsljdcndG6us6Xcxl5y32ff` | — | — | ⭐⭐⭐⭐⭐ | 06-24 | 黄金（待分析） |
 | 大湾区老姚 | `MS4wLjABAAAA_1iSPpfHXu5wjJ_7G2TZtv78eNv-_pScC2-WcyuiEtA` | — | — | ⭐⭐⭐⭐ | 06-27 | 待分析 |
 | **徐小范** | `MS4wLjABAAAA2af47UH1ZCjgvMZFKb5nFdjbQD4I9Fz5hxvaU9dSRU7Pb86sWYoMdvzLvG4MLrmS` | — | — | ⭐⭐⭐⭐ | 06-28 | 待分析 |
-| 蒋宇飞商业 | `MS4wLjABAAAACny9yd6GiSgFyyTvE6jt44j0VxBKVVhe69GdklIZIL4` | — | — | ⭐⭐⭐⭐ | 05-20 | 芯片、有色、海外科技 |
+| **小遥说商业** | `MS4wLjABAAAAwnSyCWsKIMnSnY1sd4wyo1-PoourM7-Uc_NSIEyP7ASa6FLHl2TZxcUYNDlxNOsD` | — | — | ⭐⭐⭐⭐ | 06-30 | 黄金/宏观/商业分析 |
+| 蒋宇飞商业 |
 | 宋鸿兵观天下 | `MS4wLjABAAAAzaye_V0qtP4d7m77UywUBRq7xB9CRiLaeGPfg79hLtQ` | `mid:390894226` | — | ⭐⭐⭐⭐ | 05-19 | 黄金、芯片、银行、原油 |
 | 岩松笔记 | `MS4wLjABAAAAKmBn1W1OtE3A2O79hh_R-HIAMHBX8iuTyoQhGMVVqg3nZMcZiJSfJp8qPCUuOnXc` | — | — | ⭐⭐⭐⭐ | 05-19 | 有色、稀有金属、黄金 |
 | 但斌 | `MS4wLjABAAAA4b19SkuGGVJCNpzGEiPdmvtIuI86lMLV415tjfA2KTw` | — | — | ⭐⭐⭐⭐ | 05-22 | 芯片（美银预警）、纳指 |
