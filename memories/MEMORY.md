@@ -20,10 +20,10 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 CDP Chrome获取抖音内容的核心教训：必须在登录状态下打开博主主页→等90秒渲染→DOM查a[href*="/video/"]拿aweme_id（只取19位纯数字）。日志读到body<500字=渲染失败，必须关标签页重新打开刷新，不能原地死等。sw.js不能关（断了CDP）。内存不足时先杀多余的hindsight_api进程。已全部写入douyin-video-content-extraction技能。
 §
-发财兄弟视频进度（2026-06-28）：19条已归档数据库（但有AI摘要的视频只存了我概括的一两句话，不是AI摘要原文——需要后续修正）。已成功下载+转录1条（"金融危机即将重演"3814字）。用户要确认有多少转录有价值。我判断优先级1-6需要转录（全球加息风暴/人民币升值与普通人/黄金大跌/SpaceX上市/厄尔尼诺/如何避开美元困境），其余AI摘要够用。用CDP直接读视频页面body拿AI摘要比下载转录快得多。
-§
 【2026-06-30 永久修复】抖音API调用必须通过统一入口 ~/.hermes/scripts/douyin_api.sh，此脚本强制追加 &aid=1128 参数。不传aid=1128时API返回空列表（误判为IP被封）。所有脚本/技能/文档已更新。
 §
 "小遥说商业"不是"小姚说商业"。小遥=抖音博主，523.8万粉，财经自媒体认证，sec_uid=MS4wLjABAAAAwnSyCWsKIMnSnY1sd4wyo1-PoourM7-Uc_NSIEyP7ASa6FLHl2TZxcUYNDlxNOsD。已入INDEX.md、checkpoint、桌面断点。他分析黄金暴跌的四大原因很有价值（美联储加息威慑/流动性危机/避险逻辑变化/AI虹吸效应），已写入黄金虚P-1pp，AI虚P+1pp。
 §
 日报因果链写作铁律（2026-06-30）：出日报不是标题串因果链。三数据层必须全用——数据库content字段（AI摘要原文）、events文件完整因果链、专题事件文件。每条因果必须带具体数字（百分比/金额）和信源名+日期。用户说"标题凑数"=数据层没挖够。已写入daily-report-workflow skill。
+§
+【2026-06-30 全量监控铁律】API批量检查大面积空时，先汇报全局状态给用户再选方向，不准只盯着1-2个能跑的博主埋头干。积压MP4下载后必须立即启动转录队列，不能留缺口。已写入master-routing和monitoring-pipeline两个skill。
