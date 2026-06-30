@@ -28,4 +28,4 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 2026-06-30 skill库更新：monitoring-pipeline新增IPv4强制坑、status_code=0+aweme_list=[]诊断、API节流铁律；local-chrome-cdp-bridge追加IPv4 vs IPv6诊断。
 §
-CDP cookie注入+复用标签页方案可行(2026-06-30验证)：建about:blank→Network.enable→setCookie(domain=.douyin.com)→Page.navigate到视频→等60s读body。单标签页复用5-8次，不用每条新建。参考cdp_bulk_extract_v2.py
+CDP提取抖音视频内容铁律(2026-06-30用户确立)：一个标签页搞完换下一个，不允许同时存在多个标签页。V5脚本(cdp_bulk_extract_v5.py)是当前最新，建about:blank注入60个cookie→关闭→新建导航到视频页→等60s→读body+AI摘要→关闭。V3/V4因残留标签页被纠正。知乎批量提取：zhihu_batch_extract_v1.py，cookie+API不依赖CDP。
