@@ -27,3 +27,5 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 【2026-06-30 全量监控铁律】API批量检查大面积空时，先汇报全局状态给用户再选方向，不准只盯着1-2个能跑的博主埋头干。积压MP4下载后必须立即启动转录队列，不能留缺口。已写入master-routing和monitoring-pipeline两个skill。
 §
 CDP提取抖音视频(2026-06-30)：一个标签页搞完换下一个。V5脚本(cdp_bulk_extract_v5.py)最当前：建about:blank注入60个cookie→关闭→新建导航到视频页→等60s→读body+AI摘要→关闭。知乎批量提取：zhihu_batch_extract_v1.py，cookie+API不依赖CDP。
+§
+数据库恢复结论（2026-07-02）：2939条记录中，269条完整(content≥200)，348条有source_file可从源文件恢复，2264条是手写P值结论型记录（没丢原文，就是写少了）。方案：恢复B类348条 + 以后写入加硬度自检。
