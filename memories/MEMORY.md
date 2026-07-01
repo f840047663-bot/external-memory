@@ -18,7 +18,7 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 【2026-06-20 达利欧AI泡沫警告】达利欧指出AI三大泡沫特征（估值高企/企业使用率不足20%/账面财富远超现金流），与美债30Y>5.19%+地缘动荡并列为合成风暴。警示2026-2028年动荡期。已归档：AI虚P-2pp/芯片虚P-1pp/恒科虚P-1pp。
 §
-【2026-06-30 永久修复】抖音API调用必须通过统一入口 ~/.hermes/scripts/douyin_api.sh，此脚本强制追加 &aid=1128 参数。不传aid=1128时API返回空列表（误判为IP被封）。所有脚本/技能/文档已更新。
+【2026-06-30 永久修复】抖音API必须通过统一入口~/.hermes/scripts/douyin_api.sh，强制追加&aid=1128参数。2026-07-01 cron no_agent script字段只能写纯文件名不能带python3前缀。看板生成必须从events表实时查询(ORDER BY id DESC)不依赖board_raw。
 §
 "小遥说商业"不是"小姚说商业"。小遥=抖音博主，523.8万粉，财经自媒体认证，sec_uid=MS4wLjABAAAAwnSyCWsKIMnSnY1sd4wyo1-PoourM7-Uc_NSIEyP7ASa6FLHl2TZxcUYNDlxNOsD。已入INDEX.md、checkpoint、桌面断点。他分析黄金暴跌的四大原因很有价值（美联储加息威慑/流动性危机/避险逻辑变化/AI虹吸效应），已写入黄金虚P-1pp，AI虚P+1pp。
 §
@@ -26,6 +26,4 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 【2026-06-30 全量监控铁律】API批量检查大面积空时，先汇报全局状态给用户再选方向，不准只盯着1-2个能跑的博主埋头干。积压MP4下载后必须立即启动转录队列，不能留缺口。已写入master-routing和monitoring-pipeline两个skill。
 §
-2026-06-30 skill库更新：monitoring-pipeline新增IPv4强制坑、status_code=0+aweme_list=[]诊断、API节流铁律；local-chrome-cdp-bridge追加IPv4 vs IPv6诊断。
-§
-CDP提取抖音视频内容铁律(2026-06-30用户确立)：一个标签页搞完换下一个，不允许同时存在多个标签页。V5脚本(cdp_bulk_extract_v5.py)是当前最新，建about:blank注入60个cookie→关闭→新建导航到视频页→等60s→读body+AI摘要→关闭。V3/V4因残留标签页被纠正。知乎批量提取：zhihu_batch_extract_v1.py，cookie+API不依赖CDP。
+CDP提取抖音视频(2026-06-30)：一个标签页搞完换下一个。V5脚本(cdp_bulk_extract_v5.py)最当前：建about:blank注入60个cookie→关闭→新建导航到视频页→等60s→读body+AI摘要→关闭。知乎批量提取：zhihu_batch_extract_v1.py，cookie+API不依赖CDP。
