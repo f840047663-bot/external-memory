@@ -22,10 +22,10 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 日报因果链写作铁律（2026-06-30）：出日报不是标题串因果链。三数据层必须全用——数据库content字段（AI摘要原文）、events文件完整因果链、专题事件文件。每条因果必须带具体数字（百分比/金额）和信源名+日期。用户说"标题凑数"=数据层没挖够。已写入daily-report-workflow skill。
 §
-【2026-06-30 全量监控铁律】API批量检查大面积空时，先汇报全局状态给用户再选方向，不准只盯着1-2个能跑的博主埋头干。积压MP4下载后必须立即启动转录队列，不能留缺口。已写入master-routing和monitoring-pipeline两个skill。
-§
 CDP提取抖音视频(2026-06-30)：一个标签页搞完换下一个。V5脚本(cdp_bulk_extract_v5.py)最当前：建about:blank注入60个cookie→关闭→新建导航到视频页→等60s→读body+AI摘要→关闭。知乎批量提取：zhihu_batch_extract_v1.py，cookie+API不依赖CDP。
 §
 数据库恢复结论（2026-07-02）：2939条记录中，269条完整(content≥200)，348条有source_file可从源文件恢复，2264条是手写P值结论型记录（没丢原文，就是写少了）。方案：恢复B类348条 + 以后写入加硬度自检。
 §
 数据库查询铁律：查专题前先确认库里有该category。如果不确定，先查DISTINCT category再看最新记录日期。查到旧数据（上月/年前）不准直接发微信，必须告知用户情况问换查法。全文搜索用content/comment LIKE，不依赖category。
+§
+【有底才补铁律 2026-07-03】补仓前先问「有底吗」。芯片成长股是冲高回调不知道跌多少（没底），养殖估值在历史低位再跌30%不可能（有底）。有底才补，没底等企稳。已固化到position-operation-principles大跌后逻辑核检章节。
