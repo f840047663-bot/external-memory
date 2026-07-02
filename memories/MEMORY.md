@@ -28,4 +28,4 @@ CDP提取抖音视频(2026-06-30)：一个标签页搞完换下一个。V5脚本
 §
 数据库查询铁律：查专题前先确认库里有该category。如果不确定，先查DISTINCT category再看最新记录日期。查到旧数据（上月/年前）不准直接发微信，必须告知用户情况问换查法。全文搜索用content/comment LIKE，不依赖category。
 §
-【有底才补铁律 2026-07-03】补仓前先问「有底吗」。芯片成长股是冲高回调不知道跌多少（没底），养殖估值在历史低位再跌30%不可能（有底）。有底才补，没底等企稳。已固化到position-operation-principles大跌后逻辑核检章节。
+【有底才补铁律 2026-07-03】补仓前先问「有底吗」。芯片成长股是冲高回调不知道跌多少（没底），养殖估值在历史低位再跌30%不可能（有底）。有底才补，没底等企稳。已固化到position-operation-principles。同时修复add-source-to-monitoring：新增INDEX.md sec_uid完整性校验。蒋宇飞INDEX.md sec_uid缺失需补。
