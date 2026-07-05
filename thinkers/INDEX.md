@@ -30,6 +30,7 @@
 | 生猪贸易~芳姐(山东) | `MS4wLjABAAAA84Px8FIb4E4UdQowhWdw_ZhHjXLQA_TeUJv7TygncxMxO-NGSfd5G--s0L66E36w` | — | — | ⭐⭐⭐ | 05-22 | 养殖（猪周期） |
 | 猪猪女王 | `MS4wLjABAAAA9akoFc9rg5UbgoNGRED9mf4NI1X0doHdmglkhrN-SWo` | — | — | ⭐⭐⭐ | 05-22 | 养殖（猪周期） |
 | 飞阅硬核财经 | `MS4wLjABAAAAGhkQZE8oAPGw2HoVyyCAAEK3niXCe_2GhrwmL_qePZTTuVdiMgNh21kNEXHcpTp_` | — | — | ⭐⭐⭐ | 05-22 | 个股分析（待分类） |
+| 模型先生 | `MS4wLjABAAAAK713M9d8PGNb_WiMYf7yKhOI5y60H4uELJK2guDjJT0` | — | — | ⭐⭐⭐⭐ | 07-05 | 宏观/交易/辩证法（80后交易员） |
 | 长坡厚雪 | `MS4wLjABAAAAHxYcDidnyJe_0c8b8fwU0725ODtyWYoiOsg8Q0TKUg0` | — | — | ⭐⭐⭐ | 05-22 | 价值投资（腾讯、泡泡玛特） |
 | 闭眼看世界 | `MS4wLjABAAAAr_z1wGRb1oFflUusY0OYxeoJEs6msQoD16kBaSil9Ghl1ptC5mnKQ0PbPISvYdTR` | — | — | ⭐⭐⭐ | 05-22 | 地缘/国际（间接影响黄金） |
 | 伊娃新营销 | `MS4wLjABAAAA6iF4GTOZwszOizo6WSZxfBUE_sR88Az5DkBVcDR4RJE` | — | — | ⭐⭐ | 05-22 | 养殖（猪周期，新营销视角） |
