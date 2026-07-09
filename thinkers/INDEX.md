@@ -21,6 +21,7 @@
 | 但斌 | `MS4wLjABAAAA4b19SkuGGVJCNpzGEiPdmvtIuI86lMLV415tjfA2KTw` | — | — | ⭐⭐⭐⭐ | 05-22 | 芯片（美银预警）、纳指 |
 | 古都闲云 | — | — | `people/gududatong` | ⭐⭐⭐⭐ | 05-19 | 银行、芯片、债券 |
 | 美刀哥 | `MS4wLjABAAAAefSAZCHkdTJNjPf0Pj0Irxc1dNemfQeKQqY5iOiZbjA` | — | — | ⭐⭐⭐⭐ | 06-23 | 宏观、价值投资 |
+|| **任泽平** | `MS4wLjABAAAA2Cp4dE8SUB9QqjXOpcm_7SblIW0UwgyqZD68lT4tVEgliq0l3i6qzajzsPADzarv` | — | — | ⭐⭐⭐⭐⭐ | 07-09 | AI科技/芯片/恒科/宏观 |
 | 黄士铨看世界 | `MS4wLjABAAAARGJtMMMujtgxbnl18CQHeUiTdopr5C--P4I3t80KvumwcZw2di4vfeteEnBhYI-x` | — | — | ⭐⭐⭐⭐ | 06-23 | 宏观、A股策略、美债利率 |
 | 晨钟暮鼓自由人生 | `MS4wLjABAAAAjZoWTVCIMTmzJQ79dXztgMTeh6mwtZmgiv1IjCpDP4U` | — | — | ⭐⭐⭐⭐ | 06-24 | 价值投资（待分析） |
 | 大鹅确定性 | `MS4wLjABAAAAcsGBh30eNam3wWPkv9_1DPjt4zq16py2Jy-1yeI7wxHNXNRwtk2xv5KKwYrYlz0l` | — | — | ⭐⭐⭐⭐ | 06-24 | 待分析 |
