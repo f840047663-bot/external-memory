@@ -40,6 +40,8 @@
 | 闻号说经济 | — | — | `people/wen-hao-roy` | ⭐⭐ | 05-21 | 宏微观（16年全球化企业+金融风控） |
 | 芭蕉凉气多 | — | `video/BV16HoyBKEa8`（水果健康频道） | — | ⭐⭐ | 05-15 | 健康（不碰投资） |
 
+| 小Lin说 | `MS4wLjABAAAAunpkE2IXyHAxm4A24G5d1Cf5141pnZy8HwNR5f2-6pI_GYBVR-Pv23uFyfMPB_9I` | — | — | ⭐⭐⭐⭐ | 07-11 | 宏观/全球经济/汇率 |
+| 李一恩 | `MS4wLjABAAAAuNn-nvAZ9qSMnElriH-A27sdla-O2ITaRMYPyP5WCziPEmLktuIH0zazDmNMnu_f` | — | — | ⭐⭐⭐⭐ | 07-11 | 待分析 |
 | **Michael Burry（大空头）** | 第三方分析（13F SEC文件跟踪） | — | — | ⭐⭐⭐⭐ | 07-09 | AI泡沫/芯片/半导体（空头信号跟踪） |
 
 > **标记说明：** `—` = 该平台无账号。
