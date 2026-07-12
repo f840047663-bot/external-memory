@@ -24,8 +24,8 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 抖音视频下载唯一可行路径：API post/ 端点拿 play_url → curl -4 -L 下载 MP4 → VideoCaptioner 转录。不需要 a_bogus 签名。CDP 读 body 已验证输出 DOM 骨架垃圾，不可用作 content。已固化到 monitoring-pipeline skill。
 §
-数据库查询铁律：查专题前先确认库里有该category。如果不确定，先查DISTINCT category再看最新记录日期。查到旧数据（上月/年前）不准直接发微信，必须告知用户情况问换查法。全文搜索用content/comment LIKE，不依赖category。
-§
 【有底才补铁律 2026-07-03】补仓前先问「有底吗」。芯片成长股是冲高回调不知道跌多少（没底），养殖估值在历史低位再跌30%不可能（有底）。有底才补，没底等企稳。已固化到position-operation-principles。同时修复add-source-to-monitoring：新增INDEX.md sec_uid完整性校验。蒋宇飞INDEX.md sec_uid缺失需补。
 §
 ⚠️L1.5货架·SQLite存→待重仓/贝叶斯/调仓/卖出/原油/监控/工作流。触发→load_l1dot5()。L3=文件系统(~/.hermes/external_memory/*.md)非数据库。Hindsight已废。
+§
+SQLite查询铁律：不要在python -c heredoc里写复杂SQL（shell嵌套引号总会出问题）。可靠做法：写临时.py文件然后python3执行，或python单引号包裹、SQL里用双引号标识符。
