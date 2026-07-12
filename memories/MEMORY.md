@@ -28,4 +28,4 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 【有底才补铁律 2026-07-03】补仓前先问「有底吗」。芯片成长股是冲高回调不知道跌多少（没底），养殖估值在历史低位再跌30%不可能（有底）。有底才补，没底等企稳。已固化到position-operation-principles。同时修复add-source-to-monitoring：新增INDEX.md sec_uid完整性校验。蒋宇飞INDEX.md sec_uid缺失需补。
 §
-⚠️L1.5货架·SQLite存→待重仓/贝叶斯/调仓/卖出/原油/监控/工作流。触发→load_l1dot5()。Hindsight已废。
+⚠️L1.5货架·SQLite存→待重仓/贝叶斯/调仓/卖出/原油/监控/工作流。触发→load_l1dot5()。L3=文件系统(~/.hermes/external_memory/*.md)非数据库。Hindsight已废。
