@@ -22,7 +22,7 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 日报因果链写作铁律（2026-06-30）：出日报不是标题串因果链。三数据层必须全用——数据库content字段（AI摘要原文）、events文件完整因果链、专题事件文件。每条因果必须带具体数字（百分比/金额）和信源名+日期。用户说"标题凑数"=数据层没挖够。已写入daily-report-workflow skill。
 §
-抖音视频：API post/拿play_url→curl下载→VideoCaptioner转录。CDP读body只有DOM骨架垃圾不可用。抖音API统一入口~/.hermes/scripts/douyin_api.sh，强制加&aid=1128。cron no_agent script=纯文件名不带python3前缀。
+信源画像系统技能已建：source-reliability-tracker。技能自动在skill列表里，每次查信源时会加载。不自动过滤不自动打分，仅供参考。judgment_records表记录每笔判断明细。第一个案例：任泽平7/15放水逻辑被鲍威尔证伪。
 §
 【有底才补铁律 2026-07-03】补仓前先问「有底吗」。芯片成长股是冲高回调不知道跌多少（没底），养殖估值在历史低位再跌30%不可能（有底）。有底才补，没底等企稳。已固化到position-operation-principles。同时修复add-source-to-monitoring：新增INDEX.md sec_uid完整性校验。蒋宇飞INDEX.md sec_uid缺失需补。
 §
