@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-15 18:04",
+  "updated_at": "2026-07-15 21:00",
   "说明": "18:00归档检查 — 7月15日监控已跑(396条入库events+DB)，但转录(116+27个视频)/叙事/看板/pvalue待补。",
   "数据库状态": {
-    "总事件数": 4227,
-    "最大ID": 5956
+    "总事件数": 4239,
+    "最大ID": 5968
   },
   "_metadata": {
-    "last_sync_from_db": "2026-07-15 18:04",
-    "sync_note": "归档检查: DB max_id=5956, today_count=396"
+    "last_sync_from_db": "2026-07-15 21:00",
+    "sync_note": "openclaw持仓跟踪写入12条, max_id=5968, source_ver=0715"
   }
 }
