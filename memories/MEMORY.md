@@ -22,10 +22,10 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 日报因果链写作铁律（2026-06-30）：出日报不是标题串因果链。三数据层必须全用——数据库content字段（AI摘要原文）、events文件完整因果链、专题事件文件。每条因果必须带具体数字（百分比/金额）和信源名+日期。用户说"标题凑数"=数据层没挖够。已写入daily-report-workflow skill。
 §
-抖音视频下载唯一可行路径：API post/ 端点拿 play_url → curl -4 -L 下载 MP4 → VideoCaptioner 转录。不需要 a_bogus 签名。CDP 读 body 已验证输出 DOM 骨架垃圾，不可用作 content。已固化到 monitoring-pipeline skill。
+抖音视频：API post/拿play_url→curl下载→VideoCaptioner转录。CDP读body只有DOM骨架垃圾不可用。抖音API统一入口~/.hermes/scripts/douyin_api.sh，强制加&aid=1128。cron no_agent script=纯文件名不带python3前缀。
 §
 【有底才补铁律 2026-07-03】补仓前先问「有底吗」。芯片成长股是冲高回调不知道跌多少（没底），养殖估值在历史低位再跌30%不可能（有底）。有底才补，没底等企稳。已固化到position-operation-principles。同时修复add-source-to-monitoring：新增INDEX.md sec_uid完整性校验。蒋宇飞INDEX.md sec_uid缺失需补。
 §
 ⚠️L1.5货架·SQLite存→待重仓/贝叶斯/调仓/卖出/原油/监控/工作流。触发→load_l1dot5()。L3=文件系统(~/.hermes/external_memory/*.md)非数据库。Hindsight已废。
 §
-SQLite查询铁律：不要在python -c heredoc里写复杂SQL（shell嵌套引号总会出问题）。可靠做法：写临时.py文件然后python3执行，或python单引号包裹、SQL里用双引号标识符。
+events文件模板有`**链接：**`字段（event-archive-three-link skill）。数据库events表无url列和level列——URL存events文件链接字段或db content/comment。asset='宏观'/'中观'代替level。
