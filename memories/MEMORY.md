@@ -28,4 +28,4 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 ⚠️L1.5货架·SQLite存→待重仓/贝叶斯/调仓/卖出/原油/监控/工作流。触发→load_l1dot5()。L3=文件系统(~/.hermes/external_memory/*.md)非数据库。Hindsight已废。
 §
-events文件模板有`**链接：**`字段（event-archive-three-link skill）。数据库events表无url列和level列——URL存events文件链接字段或db content/comment。asset='宏观'/'中观'代替level。
+全量分析铁律（用户2026-07-17确立）：1)必须等全部跑完再出，不截断 2)全量分析≠摘要，因果链完整展开 3)信息不能缩略到人类看不懂，特别是大跌行情 4)逻辑必须串好不能断裂 5)去掉废话但核心信息不能丢 6)大跌背景下更需要完整理解，不准敷衍
