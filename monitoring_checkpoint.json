@@ -2,11 +2,190 @@
   "updated_at": "2026-07-17 22:45",
   "说明": "22:45 日报完成+全量归档(199条)+全量分析(14,691字)。三主线上报：AI/芯片周期股确认 + 科技去杠杆 + 宏观三重压。存档batch_archive完成。",
   "数据库状态": {
-    "总事件数": 4529,
-    "最大ID": 6258
+    "总事件数": 4531,
+    "最大ID": 6260
   },
   "_metadata": {
-    "last_sync_from_db": "2026-07-18 21:08",
-    "sync_note": "写入OpenClaw小龙虾0718持仓跟踪报告(12条)"
+    "last_sync_from_db": "自动修复 - 2026-07-19",
+    "sync_note": "DB max_id=6260, total=4531"
+  },
+  "各博主断点": {
+    "发财兄弟": {
+      "last_db_id": 5545,
+      "last_db_time": "2026-07-14 22:44:01",
+      "sec_uid": "MS4wLjABAAAAGLq8XRQixvTg8RjJK1YUSmP4Jl_Ln3eoNCx4gCCAAwr2WHUEHJSV83pfs8siuoqy",
+      "status": "正常"
+    },
+    "付鹏的财经世界": {
+      "last_db_id": 5534,
+      "last_db_time": "2026-07-14 22:43:59",
+      "sec_uid": "MS4wLjABAAAAy5ym9wTQRRPyS8wY1UA4SXkgUkw7gZyg1Pkws_ppDtO2z0uOpWjbUWassaacpe8C",
+      "status": "正常"
+    },
+    "熊哥有干货": {
+      "last_db_id": 5453,
+      "last_db_time": "2026-07-14 22:43:41",
+      "sec_uid": "MS4wLjABAAAA9v5axcaVocajI17PoO8sgzPn4ojZD4vbiGk2bh2kFVsljdcndG6us6Xcxl5y32ff",
+      "status": "正常"
+    },
+    "大湾区老姚": {
+      "last_db_id": 5497,
+      "last_db_time": "2026-07-14 22:43:52",
+      "sec_uid": "MS4wLjABAAAA_1iSPpfHXu5wjJ_7G2TZtv78eNv-_pScC2-WcyuiEtA",
+      "status": "正常"
+    },
+    "徐小范": {
+      "last_db_id": 5543,
+      "last_db_time": "2026-07-14 22:44:01",
+      "sec_uid": "MS4wLjABAAAA2af47UH1ZCjgvMZFKb5nFdjbQD4I9Fz5hxvaU9dSRU7Pb86sWYoMdvzLvG4MLrmS",
+      "status": "正常"
+    },
+    "蒋宇飞商业": {
+      "last_db_id": 6043,
+      "last_db_time": "2026-07-18 00:18:30",
+      "sec_uid": "MS4wLjABAAAABIX1SKDI0Fst9m4G98RbiKFTrycSRpKYZ8kBuXAt7jY",
+      "status": "正常"
+    },
+    "宋鸿兵观天下": {
+      "last_db_id": 6044,
+      "last_db_time": "2026-07-18 00:18:30",
+      "sec_uid": "MS4wLjABAAAAzaye_V0qtP4d7m77UywUBRq7xB9CRiLaeGPfg79hLtQ",
+      "status": "正常"
+    },
+    "岩松笔记": {
+      "last_db_id": 5529,
+      "last_db_time": "2026-07-14 22:43:58",
+      "sec_uid": "MS4wLjABAAAAKmBn1W1OtE3A2O79hh_R-HIAMHBX8iuTyoQhGMVVqg3nZMcZiJSfJp8qPCUuOnXc",
+      "status": "正常"
+    },
+    "但斌": {
+      "last_db_id": 5553,
+      "last_db_time": "2026-07-14 22:44:03",
+      "sec_uid": "MS4wLjABAAAA4b19SkuGGVJCNpzGEiPdmvtIuI86lMLV415tjfA2KTw",
+      "status": "正常"
+    },
+    "美刀哥": {
+      "last_db_id": 5437,
+      "last_db_time": "2026-07-14 22:43:37",
+      "sec_uid": "MS4wLjABAAAAefSAZCHkdTJNjPf0Pj0Irxc1dNemfQeKQqY5iOiZbjA",
+      "status": "正常"
+    },
+    "黄士铨看世界": {
+      "last_db_id": 5474,
+      "last_db_time": "2026-07-14 22:43:46",
+      "sec_uid": "MS4wLjABAAAARGJtMMMujtgxbnl18CQHeUiTdopr5C--P4I3t80KvumwcZw2di4vfeteEnBhYI-x",
+      "status": "正常"
+    },
+    "晨钟暮鼓自由人生": {
+      "last_db_id": 5482,
+      "last_db_time": "2026-07-14 22:43:48",
+      "sec_uid": "MS4wLjABAAAAjZoWTVCIMTmzJQ79dXztgMTeh6mwtZmgiv1IjCpDP4U",
+      "status": "正常"
+    },
+    "大鹅确定性": {
+      "last_db_id": 5517,
+      "last_db_time": "2026-07-14 22:43:56",
+      "sec_uid": "MS4wLjABAAAAcsGBh30eNam3wWPkv9_1DPjt4zq16py2Jy-1yeI7wxHNXNRwtk2xv5KKwYrYlz0l",
+      "status": "正常"
+    },
+    "资本像素": {
+      "last_db_id": 6040,
+      "last_db_time": "2026-07-18 00:18:30",
+      "sec_uid": "MS4wLjABAAAAp8rr06HOQh8IVCWltMkqi8BnkRhnHw84gUB6pMorSLyWK9g9weksi9b8mSWg816d",
+      "status": "正常"
+    },
+    "拿幸·AI启示录": {
+      "last_db_id": 5504,
+      "last_db_time": "2026-07-14 22:43:53",
+      "sec_uid": "MS4wLjABAAAAYiyWLrWJmy2JDr3EaQYGNOD9z2ZTCYIOgIXnckGDZYZmyAIMpnZtU99Wr6WpXdbN",
+      "status": "正常"
+    },
+    "生猪贸易~芳姐(山东)": {
+      "last_db_id": 5539,
+      "last_db_time": "2026-07-14 22:44:00",
+      "sec_uid": "MS4wLjABAAAA84Px8FIb4E4UdQowhWdw_ZhHjXLQA_TeUJv7TygncxMxO-NGSfd5G--s0L66E36w",
+      "status": "正常"
+    },
+    "猪猪女王": {
+      "last_db_id": 4771,
+      "last_db_time": "2026-07-08 08:25:43",
+      "sec_uid": "MS4wLjABAAAA9akoFc9rg5UbgoNGRED9mf4NI1X0doHdmglkhrN-SWo",
+      "status": "正常"
+    },
+    "飞阅硬核财经": {
+      "last_db_id": 2398,
+      "last_db_time": "2026-06-22 10:16:31",
+      "sec_uid": "MS4wLjABAAAAGhkQZE8oAPGw2HoVyyCAAEK3niXCe_2GhrwmL_qePZTTuVdiMgNh21kNEXHcpTp_",
+      "status": "正常"
+    },
+    "模型先生": {
+      "last_db_id": 4637,
+      "last_db_time": "2026-07-06 13:05:20",
+      "sec_uid": "MS4wLjABAAAAK713M9d8PGNb_WiMYf7yKhOI5y60H4uELJK2guDjJT0",
+      "status": "正常"
+    },
+    "长坡厚雪": {
+      "last_db_id": 5490,
+      "last_db_time": "2026-07-14 22:43:50",
+      "sec_uid": "MS4wLjABAAAAHxYcDidnyJe_0c8b8fwU0725ODtyWYoiOsg8Q0TKUg0",
+      "status": "正常"
+    },
+    "闭眼看世界": {
+      "last_db_id": 5511,
+      "last_db_time": "2026-07-14 22:43:54",
+      "sec_uid": "MS4wLjABAAAAr_z1wGRb1oFflUusY0OYxeoJEs6msQoD16kBaSil9Ghl1ptC5mnKQ0PbPISvYdTR",
+      "status": "正常"
+    },
+    "伊娃新营销": {
+      "last_db_id": 5552,
+      "last_db_time": "2026-07-14 22:44:03",
+      "sec_uid": "MS4wLjABAAAA6iF4GTOZwszOizo6WSZxfBUE_sR88Az5DkBVcDR4RJE",
+      "status": "正常"
+    },
+    "小Lin说": {
+      "last_db_id": null,
+      "last_db_time": null,
+      "sec_uid": "MS4wLjABAAAAunpkE2IXyHAxm4A24G5d1Cf5141pnZy8HwNR5f2-6pI_GYBVR-Pv23uFyfMPB_9I",
+      "status": "新增-待归档"
+    },
+    "望京博格": {
+      "last_db_id": null,
+      "last_db_time": null,
+      "sec_uid": "MS4wLjABAAAAxYr8dJ2u3AzsYDWy_weJ5m_mvj_PRJ_U3wt1Pz51i9M",
+      "status": "新增-待归档"
+    },
+    "李一恩": {
+      "last_db_id": null,
+      "last_db_time": null,
+      "sec_uid": "MS4wLjABAAAAuNn-nvAZ9qSMnElriH-A27sdla-O2ITaRMYPyP5WCziPEmLktuIH0zazDmNMnu_f",
+      "status": "新增-待归档"
+    }
+  },
+  "各博主下次抓取起点": {
+    "发财兄弟": "2026-07-14 22:44:01",
+    "付鹏的财经世界": "2026-07-14 22:43:59",
+    "熊哥有干货": "2026-07-14 22:43:41",
+    "大湾区老姚": "2026-07-14 22:43:52",
+    "徐小范": "2026-07-14 22:44:01",
+    "蒋宇飞商业": "2026-07-18 00:18:30",
+    "宋鸿兵观天下": "2026-07-18 00:18:30",
+    "岩松笔记": "2026-07-14 22:43:58",
+    "但斌": "2026-07-14 22:44:03",
+    "美刀哥": "2026-07-14 22:43:37",
+    "黄士铨看世界": "2026-07-14 22:43:46",
+    "晨钟暮鼓自由人生": "2026-07-14 22:43:48",
+    "大鹅确定性": "2026-07-14 22:43:56",
+    "资本像素": "2026-07-18 00:18:30",
+    "拿幸·AI启示录": "2026-07-14 22:43:53",
+    "生猪贸易~芳姐(山东)": "2026-07-14 22:44:00",
+    "猪猪女王": "2026-07-08 08:25:43",
+    "飞阅硬核财经": "2026-06-22 10:16:31",
+    "模型先生": "2026-07-06 13:05:20",
+    "长坡厚雪": "2026-07-14 22:43:50",
+    "闭眼看世界": "2026-07-14 22:43:54",
+    "伊娃新营销": "2026-07-14 22:44:03",
+    "小Lin说": "2026-07-09 00:00:00",
+    "望京博格": "2026-07-09 00:00:00",
+    "李一恩": "2026-07-09 00:00:00"
   }
 }
