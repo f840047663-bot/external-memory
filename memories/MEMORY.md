@@ -18,7 +18,7 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 【2026-06-20 达利欧AI泡沫警告】达利欧指出AI三大泡沫特征（估值高企/企业使用率不足20%/账面财富远超现金流），与美债30Y>5.19%+地缘动荡并列为合成风暴。警示2026-2028年动荡期。已归档：AI虚P-2pp/芯片虚P-1pp/恒科虚P-1pp。
 §
-【2026-06-30 永久修复】抖音API必须通过统一入口~/.hermes/scripts/douyin_api.sh，强制追加&aid=1128参数。2026-07-01 cron no_agent script字段只能写纯文件名不能带python3前缀。看板生成必须从events表实时查询(ORDER BY id DESC)不依赖board_raw。
+五源互锁展现铁律（2026-07-20）：跨源验证不能压缩成一行标签，每条信源必须独立成段带四项（信源+日期+权重、原话、具体数据、与主线关系）。已写入daily-report-workflow和three-tier-deep-analysis skill。
 §
 日报因果链写作铁律（2026-06-30）：出日报不是标题串因果链。三数据层必须全用——数据库content字段（AI摘要原文）、events文件完整因果链、专题事件文件。每条因果必须带具体数字（百分比/金额）和信源名+日期。用户说"标题凑数"=数据层没挖够。已写入daily-report-workflow skill。
 §
