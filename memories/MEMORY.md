@@ -16,7 +16,7 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 【2027危机拦截铁律 2026-06-12】用户要求：任何时候他说"加仓恒科/有色/稀金"，必须立即提醒"2027金融危机雷还没爆，不要搞这些东西"。这是硬拦截，除非他主动说"我不管2027危机，我就是要加"。此规则写入所有相关文件。
 §
-Updated local-chrome-cdp-bridge SKILL.md §最常用场景: added 2026-07-22 pitfall — browser_navigate/browser_cdp 404 ≠ Chrome dead. Tool handle staleness. Fix: curl /json/version first, if Chrome lives → use Python websocket page-level WS directly.
+/tmp is 3.6G tmpfs. headless Chrome dir /tmp/chrome-debug can silently fill it → CDP hangs (timeouts, body=0). Fix: rm -rf /tmp/chrome-debug, check with df -h /tmp.
 §
 五源互锁展现铁律（2026-07-20）：跨源验证不能压缩成一行标签，每条信源必须独立成段带四项（信源+日期+权重、原话、具体数据、与主线关系）。已写入daily-report-workflow和three-tier-deep-analysis skill。
 §
