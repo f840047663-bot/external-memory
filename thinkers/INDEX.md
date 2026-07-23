@@ -44,8 +44,9 @@
 | 望京博格 | `MS4wLjABAAAAxYr8dJ2u3AzsYDWy_weJ5m_mvj_PRJ_U3wt1Pz51i9M` | — | — | ⭐⭐⭐⭐ | 07-12 | 待分析 |
 | 李一恩 | `MS4wLjABAAAAuNn-nvAZ9qSMnElriH-A27sdla-O2ITaRMYPyP5WCziPEmLktuIH0zazDmNMnu_f` | — | — | ⭐⭐⭐⭐ | 07-11 | 待分析 |
 | **Michael Burry（大空头）** | 第三方分析（13F SEC文件跟踪） | — | — | ⭐⭐⭐⭐ | 07-09 | AI泡沫/芯片/半导体（空头信号跟踪） |
-|| **鹏哥投研** | `MS4wLjABAAAAdXmdfVniRQwhHIjwY8TYbEcIfxNrkbaNXfbBVjFqIrWUxJRgWLHWCXJZb2GIqcPj` | — | — | ⭐⭐⭐⭐ | 07-23 | 公募基金/AI科技/芯片/光模块 |
-
+||| **鹏哥投研** | `MS4wLjABAAAAdXmdfVniRQwhHIjwY8TYbEcIfxNrkbaNXfbBVjFqIrWUxJRgWLHWCXJZb2GIqcPj` | — | — | ⭐⭐⭐⭐ | 07-23 | 公募基金/AI科技/芯片/光模块 |
+|| **AI 007** | `MS4wLjABAAAAN5mnCAtFmwmVgfvIR5V6ayKWtvnD8DEZtm3nokc9Xbc` | — | — | ⭐⭐⭐⭐ | 07-23 | 待分析 |
+|
 > **标记说明：** `—` = 该平台无账号。
 > **格式：** 抖音列写`MS4w...`(sec_uid)，B站列写`mid:数字`，知乎列写`people/xxx`
 > 监控脚本自动识别这三列的格式，不用额外配置。
