@@ -2,8 +2,6 @@
 §
 用户明确：他说"归档"=启动归档技能event-archive-three-link，按三处联动走（events一事件一文件+narratives提炼多空+看板同步双向引用）。不需要我猜。日常档案类问题找session_search查历史记录，不写L1。
 §
-水又三人禾权重最高⭐⭐⭐⭐⭐，美刀哥（抖音）⭐⭐⭐⭐。三人已同步INDEX、断点、checkpoint。框架：分子端定长期/利率流动性定短期；AI泡沫=分子端问题；黄金中期看空长期不空。美刀哥≠水又三人禾。
-§
 投资框架已定死为瑞·达利奥框架。每次阶段三分析时，自动审核持仓是否符合达利奥四象限配置（增长↑通胀↑/增长↑通胀↓/增长↓通胀↑/增长↓通胀↓），检查是否过度集中在单一象限。持仓分散度低于达利奥标准时主动提醒用户。
 §
 investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db。写数据库先加载 skill:memory-data-system（整合读写+断点+L1.5懒加载）。Hindsight向量库已废弃不用。
@@ -29,3 +27,5 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 ⚠️L1.5货架·SQLite存→待重仓/贝叶斯/调仓/卖出/原油/监控/工作流。触发→load_l1dot5()。L3=文件系统(~/.hermes/external_memory/*.md)非数据库。Hindsight已废。
 §
 全量分析铁律（用户2026-07-17确立）：1)必须等全部跑完再出，不截断 2)全量分析≠摘要，因果链完整展开 3)信息不能缩略到人类看不懂，特别是大跌行情 4)逻辑必须串好不能断裂 5)去掉废话但核心信息不能丢 6)大跌背景下更需要完整理解，不准敷衍
+§
+Chrome CDP完全不可用(2026-07-24)。全部走Cookie API。抖音cookie(7/14 aid=6383)和知乎cookie(6/26)仍有效。批量脚本: ~/.hermes/scripts/batch_process_all.py。
