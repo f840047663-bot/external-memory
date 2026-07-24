@@ -28,4 +28,4 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 全量分析铁律（用户2026-07-17确立）：1)必须等全部跑完再出，不截断 2)全量分析≠摘要，因果链完整展开 3)信息不能缩略到人类看不懂，特别是大跌行情 4)逻辑必须串好不能断裂 5)去掉废话但核心信息不能丢 6)大跌背景下更需要完整理解，不准敷衍
 §
-Chrome CDP完全不可用(2026-07-24)。全部走Cookie API。抖音cookie(7/14 aid=6383)和知乎cookie(6/26)仍有效。批量脚本: ~/.hermes/scripts/batch_process_all.py。
+Chrome CDP完全不可用(2026-07-24)。全部走Cookie API。抖音cookie(7/14 aid=6383)和知乎cookie(6/26)仍有效。批量脚本: ~/.hermes/scripts/batch_process_all.py。全量归档后必须标记txt文件名（_已归档/+去重+删失败文件）。
