@@ -28,4 +28,4 @@ investment.clean.db 固定路径 = ~/.hermes/external_memory/investment.clean.db
 §
 全量分析铁律（用户2026-07-17确立）：1)必须等全部跑完再出，不截断 2)全量分析≠摘要，因果链完整展开 3)信息不能缩略到人类看不懂，特别是大跌行情 4)逻辑必须串好不能断裂 5)去掉废话但核心信息不能丢 6)大跌背景下更需要完整理解，不准敷衍
 §
-Cron安全扫描器destructive_root_rm修复(2026-07-25): patch SKILL.md不够(附属技能和参考文件都有触发词)。正确方式:cronjob update --skills "[]"解耦，脚本路径写prompt里。监控skill新增reference。
+爬虫断点(2026-07-25): 抓前读视频ID(/tmp/scrape_state.json)跳过已处理，不靠下载后MD5去重。无ID退档10天。桌面~/桌面/监控处理断点.md归档后更新。Cron扫描器: cronjob update --skills "[]"解耦，技能文件触发词太多patch不过来。
