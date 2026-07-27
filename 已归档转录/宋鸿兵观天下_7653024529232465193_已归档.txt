@@ -1,0 +1,3 @@
+Extracting audio from: /tmp/ts/宋鸿兵观天下_7653024529232465193.mp4
+Audio extracted to: /tmp/tmp5n16awto.mp3
+Transcribing audio: /tmp/tmp5n16awto.mp3
